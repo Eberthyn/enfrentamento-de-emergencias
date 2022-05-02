@@ -6,13 +6,13 @@ body, header, footer{
 
 /** Menu Superior **/
 .navbar{
-    background-color: #84A3B5;
+    background-color: #EE8706;
 }
 .navbar-nav{
    margin-right: 5%;
 }
 #navbarNavDropdown{
-    background-color: #84A3B5;
+    background-color: #EE8706;
 }
 .logo{
     margin: 1% 0% 1% 5%;
@@ -124,8 +124,8 @@ body, header, footer{
 
 .step.completed .circle {
   visibility: visible;
-  background-color: #2E4057;
-  border-color: #2E4057;
+  background-color: #EE8706;
+  border-color: #EE8706;
   color: #FFF;
 }
 
@@ -171,7 +171,7 @@ body, header, footer{
 }
 
 .visited {
-  background-color: #2E4057;
+  background-color: #EE8706;
   border: 2px solid #2E4057;
   border-radius: 22px;
   width: 12px;
@@ -235,7 +235,7 @@ body, header, footer{
     margin: 0% !important;
 }
 .tarja{
-    margin-top: -1.5px;
+    margin-top: -5.5px;
     margin-bottom: 30px !important;
 }
 .row{
@@ -249,12 +249,12 @@ body, header, footer{
 }
 #cartaz{
     margin-top: 50px !important;
-    color: #84A3B5;
+    color: #EE8706;
     font-weight: bold;
 }
 .estilo{
    margin-left: 9.5% !important;
-   background-color: #84A3B5;
+   background-color: #EE8706;
    margin-bottom: 40px !important;
    margin-top: 40px !important;
 }
@@ -273,7 +273,7 @@ body, header, footer{
     margin-left: auto;
 }
 .blocoTexto{
-    background-color: #19223C;
+    background-color: #0173BC;
     color: white;
     padding: 40px 40px 10px 40px !important;
 }
@@ -312,17 +312,19 @@ ul{
 .destaque{
     margin-top: 80px;
     margin-bottom: 80px;
+    color: #0173BC;
+    font-weight: bold;
 }
 hr{
-    border: 1px #84A3B5;
-    background-color:#84A3B5;
+    border: 1px #0173BC;
+    background-color:#0173BC;
     height: 3px;
     width: 110px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 .boxFinal{
-    background-color: #84A3B5;
+    background-color: #EE8706;
     border-radius: 20px;
     color: white;
     margin-bottom: 50px;
@@ -338,13 +340,14 @@ h1{
     margin-bottom: 40px;
     margin-top: 50px;
     max-width: 58ch; 
+    color: #0173BC;
 }
 h2{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 24px;
     margin-top: 40px;
-    color: #84A3B5;
+    color: #EE8706;
 }
 p{
     margin-bottom: 24px;
@@ -354,6 +357,12 @@ p{
     font-size: 16px; 
     font-weight: 600;
     text-transform: uppercase;
+}
+.iconTitle{
+    font-weight: bold;
+    color: #0173BC;
+    text-transform: uppercase;
+    margin-bottom: 0px !important;
 }
 
 /* Listas e Ícones */
@@ -405,10 +414,48 @@ ul li{
     align-items: center;
 }
 
+/* Accordions */
+.accordion .card-body{
+    background-color:  #F5F5F5;
+}
+.card{
+    border: 0px;
+    position: relative;
+}
+.card-header{
+    border-width: 1px;
+    border-color: #3D3D3D;
+}
+.card-header a{
+    cursor: pointer;
+}
+.card-header p{
+    color: #3D3D3D;
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.card-body ul li{
+    list-style: none;
+}
+.accordion .collapsed i:before{
+    content: "\f0d7";
+}
+
+.accordionMenu {
+    padding: 10px;
+}
+
+.card-header-menu {
+    cursor: pointer;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 18px;
+}
 
 /* Barra de Navegação */
 .navegacao{
-    background-color: #2E4057;
+    background-color: #EE8706;
     margin: 0px !important;
     max-width: 100%;
 }
@@ -421,7 +468,7 @@ ul li{
 }
 #proxima,  #anterior{
     color: white; 
-    padding: 2% 15% 0% 15%;
+    padding: 2% 10% 0% 10%;
 }
 #proxima p, #anterior p{
     margin-top: 15px;
@@ -513,19 +560,19 @@ footer{
 
 /* Tooltips */    
 .tooltip-inner{
-    background-color: #84A3B5;
+    background-color: #EE8706;
     color: white;
     text-align: left;
 }
 .tooltipStyle{
     font-weight: 600;
-    color: #84A3B5 !important;
+    color: #EE8706 !important;
 }
 .tooltipStyle:hover{
-    color: #84A3B5;
+    color: #EE8706;
 }
 .tooltip .arrow:before {
-    border-top-color: #84A3B5 !important;
+    border-top-color: #EE8706 !important;
 }
 
 /* Botão Avaliação */
