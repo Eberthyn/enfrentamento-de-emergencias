@@ -143,7 +143,7 @@ body, header, footer{
   max-width: 100%;
 }
 .subItem {
-  margin-left: -38px;
+  margin-left: -42px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -166,8 +166,8 @@ body, header, footer{
   background-color: #FFF;
   border: 2px solid #2E4057;
   border-radius: 22px;
-  width: 12px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
 }
 
 .visited {
@@ -186,7 +186,7 @@ body, header, footer{
 .step:last-child .line {
   top: 25px;
   left: 11.5px;
-  height: 88%;
+  height: 95%;
 }
 
 .contentMenu {
@@ -197,7 +197,7 @@ body, header, footer{
 
 .contentMenu .title a {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
   color: #3D3D3D;
@@ -225,7 +225,6 @@ body, header, footer{
     /* Esconde Menu Lateral em telas menores */
     display: none;
 }
-
 
 /** Corpo texto **/
 
@@ -349,6 +348,11 @@ h2{
     margin-top: 40px;
     color: #EE8706;
 }
+
+h2.topicosFinais{
+    color: #0173BC;
+}
+
 p{
     margin-bottom: 24px;
     /*max-width: 140ch;*/
@@ -363,6 +367,10 @@ p{
     color: #0173BC;
     text-transform: uppercase;
     margin-bottom: 0px !important;
+}
+.conteudo a{
+    color: black;
+    text-decoration: underline;
 }
 
 /* Listas e Ícones */
@@ -443,14 +451,14 @@ ul li{
 }
 
 .accordionMenu {
-    padding: 10px;
+    padding: 20px 20px 0px 20px;
 }
 
 .card-header-menu {
     cursor: pointer;
     margin: auto;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Barra de Navegação */
@@ -540,9 +548,6 @@ footer{
     .step:last-child .line{
         height: 89% ;
     }
-    .warningStyle1 {
-        padding-left: 30px !important;
-    }
 }
 
 
@@ -589,5 +594,5 @@ footer{
     margin: auto;
 }
 .warningStyle2 {
-    padding-left: 30px !important;
+    padding-left: 15px !important;
  }
