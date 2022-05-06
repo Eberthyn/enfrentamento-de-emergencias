@@ -6,14 +6,14 @@
     <title>Treinamento testes rápidos Covid-19 - Aula 1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Arquivos CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/normalize.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
 
             <!-- Logos -->
-            <img src="assets/images/logos/logoAula.png" class="img-fluid logo" alt="Logo Fiocruz" />
+            <img src="../assets/images/logos/logoAula.png" class="img-fluid logo" alt="Logo Fiocruz" />
 
             <!-- Botão Collapse -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -34,9 +34,10 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="material-complementar.html">Material Complementar</a></li>
-                    <li><a href="creditos.html">Créditos</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../material-complementar.html">Material Complementar</a></li>
+                    <li><a href="../bibliografia.html">Bibliografia</a></li>
+                    <li><a href="../creditos.html">Créditos</a></li>
                 </ul>
             </div>
 
@@ -58,257 +59,917 @@
 
                 <!-- Botão Secundário p/ Recolher Sidebar -->
                 <span class="toggle-sidebar" id="sidebarButton2"><img style="max-width: 50%;"
-                        src="assets/images/icones/icone.png" alt=""></span>
+                        src="../assets/images/icones/icone.png" alt="Botão do Menu Lateral"></span>
 
-                <!-- Step 1 -->
-                <div class="step" id="aula1">
-                    <div class="v-stepper">
-                        <div class="circle">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu open">
-                        <div class="link title">
-                            <a class="aula1" style="cursor: pointer;">Aula 1</a>
-                            <i class="fas fa-caret-down"></i>
+                <!-- Menu Módulo 1 -->
+                <div class="accordion">
+                    <div class="accordionMenu">
+                        <!-- Módulo 1 header -->
+                        <div id="headingModulo1">
+                            <a class="card-header-menu collapsed" data-toggle="collapse" data-target="#collapseModulo1"
+                                aria-expanded="false" aria-controls="collapseModulo1">Módulo 1<i
+                                    class="fas fa-caret-up caretDown"></i>
+                            </a>
                         </div>
 
-                        <div class="items collapse show" id="collapseAula1">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico1"></div>
-                                </div>
-                                <p><a href="#topico1">Sobre o Kit TR COVID-19 Ag</a></p>
-                            </div>
+                        <!-- Aulas Módulo 1 -->
+                        <div id="collapseModulo1" class="collapse" aria-labelledby="headingModulo1">
+                            <div class="card-body-menu">
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico2"></div>
-                                </div>
-                                <p><a href="#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
+                                <!-- Step 1 -->
+                                <div class="step" id="aula1">
+                                    <div class="v-stepper">
+                                        <div class="circle">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="line"></div>
+                                    </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico3"></div>
-                                </div>
-                                <p><a href="#topico3">Elementos do kit</a></p>
-                            </div>
+                                    <div class="contentMenu">
+                                        <div class="link title">
+                                            <a class="aula1" style="cursor: pointer;">Aula 1</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico4"></div>
-                                </div>
-                                <p><a href="#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
+                                        <div class="items collapse hide" id="collapseAula1">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico1"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico1">Arena de Políticas Globais para
+                                                        saúde</a></p>
+                                            </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico5"></div>
-                                </div>
-                                <p><a href="#topico5">Boas práticas de manipulação</a></p>
-                            </div>
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico2"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico2">Interconexão das funções durante
+                                                        a pandemia de
+                                                        Covid-19</a></p>
+                                            </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico6"></div>
-                                </div>
-                                <p><a href="#topico6">Conclusão da aula</a></p>
-                            </div>
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico3"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico3">A Organização Mundial da Saúde
+                                                        (OMS)</a></p>
+                                            </div>
 
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico4"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico4">A Organização Panamericana da
+                                                        Saúde (OPAS)</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico5"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico5">Participação de agentes
+                                                        não-estatais na saúde</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico6">Quadro de Colaboração com
+                                                        Agentes Não Estatais</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico7">Movimento pela saúde dos
+                                                        povos</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico8">O Regulamento Sanitário
+                                                        Internacional e as
+                                                        emergências de saúde pública</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico9">Emergências em saúde pública:
+                                                        caracterização e
+                                                        contexto</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico10">Surto, epidemia, endemia,
+                                                        pandemia e sindemia:
+                                                        entendendo os significados</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico11">Como uma emergência é
+                                                        declarada?</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico12">Considerações finais</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico13">Resumo da aula</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula1.html#topico14">Leitura recomendada</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim do Step 1 -->
+
+                                <!-- Step 2 -->
+                                <div class="step" id="aula2">
+                                    <div class="v-stepper">
+                                        <div class="circle">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="line"></div>
+                                    </div>
+
+                                    <div class="contentMenu">
+                                        <div class="link title">
+                                            <a class="aula2" style="cursor: pointer;">Aula 2</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+
+                                        <div class="items collapse hide" id="collapseAula2">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico1"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico1">Antecedentes e tensões</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico2"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico2">Leituras sobre participação e
+                                                        movimentos sociais
+                                                        de direitos humanos contemporâneos</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico3"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico3">Dinâmica interna dos movimentos
+                                                        sociais</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico4"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico4">Mudanças na participação dos
+                                                        movimentos sociais na
+                                                        agenda global</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico5"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico5">Um campo híbrido de atuação</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico6">Movimentos sociais e a Agenda
+                                                        2030</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico7"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico7">Movimentos sociais e os meios
+                                                        digitais</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico8"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico8">Participação na prática</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico9"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico9">Resumo da aula</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico10"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico10">Leitura recomendada</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim Step 2 -->
+
+                                <!-- Step 3 -->
+                                <div class="step" id="aula3">
+                                    <div class="v-stepper">
+                                        <div class="circle">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="line"></div>
+                                    </div>
+
+                                    <div class="contentMenu open">
+                                        <div class="link title">
+                                            <a class="aula3" style="cursor: pointer;">Aula 3</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+
+                                        <div class="items collapse show" id="collapseAula3">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico1"></div>
+                                                </div>
+                                                <p><a href="#topico1">Movimentos sociais na América Latina</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico2"></div>
+                                                </div>
+                                                <p><a href="#topico2">Movimentos sociais ao longo da
+                                                        história</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico3"></div>
+                                                </div>
+                                                <p><a href="#topico3">Agrotóxicos – Nicarágua e Costa Rica</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico4"></div>
+                                                </div>
+                                                <p><a href="#topico4">Poluição mediante incineração de
+                                                        resíduos sólidos - México +</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico5"></div>
+                                                </div>
+                                                <p><a href="#topico5">Pessoas Desaparecidas - México +</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico6"></div>
+                                                </div>
+                                                <p><a href="#topico6">Síndrome do Vírus Zika Congênita -
+                                                        Brasil</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico7"></div>
+                                                </div>
+                                                <p><a href="#topico7">HIV/AIDS e IST’s - México</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico8"></div>
+                                                </div>
+                                                <p><a href="#topico8">Povos Indígenas - Brasil</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico9"></div>
+                                                </div>
+                                                <p><a href="#topico9">Considerações finais</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico10"></div>
+                                                </div>
+                                                <p><a href="#topico10">Resumo da aula</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico11"></div>
+                                                </div>
+                                                <p><a href="#topico11">Leitura recomendada</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim Step 3 -->
+
+                            </div>
+                            <!-- Fim do Step Menu -->
                         </div>
                     </div>
                 </div>
-                <!-- Fim do Step 1 -->
+                <!-- Fim do menu Módulo 1 -->
 
-                <!-- Step 2 -->
-                <div class="step" id="aula2">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula2" style="cursor: pointer;">Aula 2</a>
-                            <i class="fas fa-caret-down"></i>
+                <!-- Menu Módulo 2 -->
+                <div class="accordion">
+                    <div class="accordionMenu">
+                        <!-- Módulo 2 header -->
+                        <div id="headingModulo2">
+                            <a class="card-header-menu collapsed" data-toggle="collapse" data-target="#collapseModulo2"
+                                aria-expanded="false" aria-controls="collapseModulo2">Módulo 2<i
+                                    class="fas fa-caret-up caretDown"></i>
+                            </a>
                         </div>
 
-                        <div class="items collapse hide" id="collapseAula2">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico1"></div>
-                                </div>
-                                <p><a href="aula2.html#topico1">Sobre o Kit TR DPP<sup>®</sup> COVID-19 Ag</a></p>
-                            </div>
+                        <!-- Aulas Módulo 2 -->
+                        <div id="collapseModulo2" class="collapse" aria-labelledby="headingModulo2">
+                            <div class="card-body-menu">
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico2"></div>
-                                </div>
-                                <p><a href="aula2.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
+                                <!-- Step 1 -->
+                                <div class="step" id="aula1">
+                                    <div class="v-stepper">
+                                        <div class="circle">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="line"></div>
+                                    </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico3"></div>
-                                </div>
-                                <p><a href="aula2.html#topico3">Elementos do kit</a></p>
-                            </div>
+                                    <div class="contentMenu open">
+                                        <div class="link title">
+                                            <a class="aula1" style="cursor: pointer;">Aula 1</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico4"></div>
-                                </div>
-                                <p><a href="aula2.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
+                                        <div class="items collapse show" id="collapseAula1">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico1"></div>
+                                                </div>
+                                                <p><a href="#topico1">Arena de Políticas Globais para saúde</a></p>
+                                            </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico5"></div>
-                                </div>
-                                <p><a href="aula2.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico2"></div>
+                                                </div>
+                                                <p><a href="#topico2">Interconexão das funções durante a pandemia de
+                                                        Covid-19</a></p>
+                                            </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico6"></div>
-                                </div>
-                                <p><a href="aula2.html#topico6">Conclusão da aula</a></p>
-                            </div>
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico3"></div>
+                                                </div>
+                                                <p><a href="#topico3">A Organização Mundial da Saúde (OMS)</a></p>
+                                            </div>
 
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico4"></div>
+                                                </div>
+                                                <p><a href="#topico4">A Organização Panamericana da Saúde (OPAS)</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico5"></div>
+                                                </div>
+                                                <p><a href="#topico5">Participação de agentes não-estatais na saúde</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico6">Quadro de Colaboração com Agentes Não Estatais</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico7">Movimento pela saúde dos povos</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico8">O Regulamento Sanitário Internacional e as
+                                                        emergências de saúde pública</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico9">Emergências em saúde pública: caracterização e
+                                                        contexto</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico10">Surto, epidemia, endemia, pandemia e sindemia:
+                                                        entendendo os significados</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico11">Como uma emergência é declarada?</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico12">Considerações finais</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico13">Resumo da aula</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico14">Leitura recomendada</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim do Step 1 -->
+
+                                <!-- Step 2 -->
+                                <div class="step" id="aula2">
+                                    <div class="v-stepper">
+                                        <div class="circle"></div>
+                                        <div class="line"></div>
+                                    </div>
+
+                                    <div class="contentMenu">
+                                        <div class="link title">
+                                            <a class="aula2" style="cursor: pointer;">Aula 2</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+
+                                        <div class="items collapse hide" id="collapseAula2">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico1"></div>
+                                                </div>
+                                                <p><a href="#topico1"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico2"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico2"></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico3"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico3"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico4"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico4"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico5"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico5"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico6"></a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim Step 2 -->
+
+                                <!-- Step 3 -->
+                                <div class="step" id="aula3">
+                                    <div class="v-stepper">
+                                        <div class="circle"></div>
+                                        <div class="line"></div>
+                                    </div>
+
+                                    <div class="contentMenu">
+                                        <div class="link title">
+                                            <a class="aula3" style="cursor: pointer;">Aula 3</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+
+                                        <div class="items collapse hide" id="collapseAula3">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico1"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico1"></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico2"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico2"></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico3"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico3"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico4"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico4"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico5"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico5"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico6"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico6"></a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim Step 3 -->
+
+                            </div>
                         </div>
+
                     </div>
                 </div>
-                <!-- Fim Step 2 -->
+                <!-- Fim do menu Módulo 2 -->
 
-                <!-- Step 3 -->
-                <div class="step" id="aula3">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
+                <!-- Menu Módulo 3 -->
+                <div class="accordion">
+                    <div class="accordionMenu">
+                        <!-- Módulo 3 header -->
+                        <div id="headingModulo3">
+                            <a class="card-header-menu collapsed" data-toggle="collapse" data-target="#collapseModulo3"
+                                aria-expanded="false" aria-controls="collapseModulo3">Módulo 3<i
+                                    class="fas fa-caret-up caretDown"></i>
 
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula3" style="cursor: pointer;">Aula 3</a>
-                            <i class="fas fa-caret-down"></i>
+                            </a>
                         </div>
 
-                        <div class="items collapse hide" id="collapseAula3">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico1"></div>
-                                </div>
-                                <p><a href="aula3.html#topico1">Sobre o Kit TR SARS-CoV-2 Ag</a>
-                                </p>
-                            </div>
+                        <!-- Aulas Módulo 3 -->
+                        <div id="collapseModulo3" class="collapse" aria-labelledby="headingModulo3">
+                            <div class="card-body-menu">
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico2"></div>
-                                </div>
-                                <p><a href="aula3.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
+                                <!-- Step 1 -->
+                                <div class="step" id="aula1">
+                                    <div class="v-stepper">
+                                        <div class="circle">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="line"></div>
+                                    </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico3"></div>
-                                </div>
-                                <p><a href="aula3.html#topico3">Elementos do kit</a></p>
-                            </div>
+                                    <div class="contentMenu open">
+                                        <div class="link title">
+                                            <a class="aula1" style="cursor: pointer;">Aula 1</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico4"></div>
-                                </div>
-                                <p><a href="aula3.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
+                                        <div class="items collapse show" id="collapseAula1">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico1"></div>
+                                                </div>
+                                                <p><a href="#topico1">Arena de Políticas Globais para saúde</a></p>
+                                            </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico5"></div>
-                                </div>
-                                <p><a href="aula3.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico2"></div>
+                                                </div>
+                                                <p><a href="#topico2">Interconexão das funções durante a pandemia de
+                                                        Covid-19</a></p>
+                                            </div>
 
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico6"></div>
-                                </div>
-                                <p><a href="aula3.html#topico6">Conclusão da aula</a></p>
-                            </div>
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico3"></div>
+                                                </div>
+                                                <p><a href="#topico3">A Organização Mundial da Saúde (OMS)</a></p>
+                                            </div>
 
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico4"></div>
+                                                </div>
+                                                <p><a href="#topico4">A Organização Panamericana da Saúde (OPAS)</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico5"></div>
+                                                </div>
+                                                <p><a href="#topico5">Participação de agentes não-estatais na saúde</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico6">Quadro de Colaboração com Agentes Não Estatais</a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico7">Movimento pela saúde dos povos</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico8">O Regulamento Sanitário Internacional e as
+                                                        emergências de saúde pública</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico9">Emergências em saúde pública: caracterização e
+                                                        contexto</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico10">Surto, epidemia, endemia, pandemia e sindemia:
+                                                        entendendo os significados</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico11">Como uma emergência é declarada?</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico12">Considerações finais</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico13">Resumo da aula</a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula1topico6"></div>
+                                                </div>
+                                                <p><a href="#topico14">Leitura recomendada</a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim do Step 1 -->
+
+                                <!-- Step 2 -->
+                                <div class="step" id="aula2">
+                                    <div class="v-stepper">
+                                        <div class="circle"></div>
+                                        <div class="line"></div>
+                                    </div>
+
+                                    <div class="contentMenu">
+                                        <div class="link title">
+                                            <a class="aula2" style="cursor: pointer;">Aula 2</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+
+                                        <div class="items collapse hide" id="collapseAula2">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico1"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico1"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico2"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico2"></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico3"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico3"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico4"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico4"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico5"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico5"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula2topico6"></div>
+                                                </div>
+                                                <p><a href="modulo1-aula2.html#topico6"></a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim Step 2 -->
+
+                                <!-- Step 3 -->
+                                <div class="step" id="aula3">
+                                    <div class="v-stepper">
+                                        <div class="circle"></div>
+                                        <div class="line"></div>
+                                    </div>
+
+                                    <div class="contentMenu">
+                                        <div class="link title">
+                                            <a class="aula3" style="cursor: pointer;">Aula 3</a>
+                                            <i class="fas fa-caret-down"></i>
+                                        </div>
+
+                                        <div class="items collapse hide" id="collapseAula3">
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico1"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico1"></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico2"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico2"></a>
+                                                </p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico3"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico3"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico4"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico4"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico5"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico5"></a></p>
+                                            </div>
+
+                                            <div class="subItem">
+                                                <div class="containerItem">
+                                                    <div class="item" id="aula3topico6"></div>
+                                                </div>
+                                                <p><a href="aula3.html#topico6"></a></p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fim Step 3 -->
+
+                            </div>
                         </div>
+
                     </div>
                 </div>
-                <!-- Fim Step 3 -->
-
-                <!-- Step 4 -->
-                <div class="step" id="aula4">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula4" style="cursor: pointer;">Aula 4</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula4">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico1"></div>
-                                </div>
-                                <p><a href="aula4.html#topico1">Sobre o Kit Teste Rápido COVID Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico2"></div>
-                                </div>
-                                <p><a href="aula4.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico3"></div>
-                                </div>
-                                <p><a href="aula4.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico4"></div>
-                                </div>
-                                <p><a href="aula4.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico5"></div>
-                                </div>
-                                <p><a href="aula4.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico6"></div>
-                                </div>
-                                <p><a href="aula4.html#topico6">Conclusão da aula</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Fim Step 4 -->
+                <!-- Fim do menu Módulo 3 -->
 
             </div>
-            <!-- Fim do Step Menu -->
+            <!-- Fim Step Menu -->
 
         </div> <!-- Fim da Coluna Menu Lateral -->
 
@@ -318,356 +979,522 @@
             <!-- Bloco 1 -->
             <div class="conteudo">
 
-                <img class="tarja" src="assets/images/aula1/tarjaAula1.png" alt="Tarja Aula 1">
+                <img class="tarja" src="../assets/images/modulo1/aula1/tarjaModulo1.png" alt="Tarja Aula 3">
 
-                <h1>Teste TR COVID-19 Ag - Bio-Manguinhos</h1>
+                <h1>SARS-CoV-2- transmissão e prevenção</h1>
 
-                <p><b>Ao final desta aula, você será capaz de:</b></p>
+                <p class="pinfo">Objetivos de aprendizagem:</p>
+
+                <p>Ao final desta aula, você será capaz de:</p>
 
                 <ul>
                     <li class="icon checkmark">
-                        <p>Identificar os elementos que compõem o Kit TR COVID-19 Ag.</p>
+                        <p>Conhecer a história da pandemia por SARS-CoV-2.</p>
                     </li>
 
                     <li class="icon checkmark">
-                        <p>Realizar o TR COVID-19 Ag em humanos.</p>
+                        <p>Conhecer os principais mecanismos de transmissão do SARS-CoV-2 e as repercussões no
+                            organismo.</p>
                     </li>
 
                     <li class="icon checkmark">
-                        <p>Interpretar os resultados do TR COVID-19 Ag.</p>
+                        <p>Conhecer as principais medidas não farmacológicas para a prevenção da Covid-19.</p>
                     </li>
                 </ul>
 
-                <h2 id="topico1">Sobre o Kit TR COVID-19 Ag</h2>
+                <h2 id="topico1">História da Pandemia por SARS-CoV-2 - os primeiros casos detectados à pandemia pela
+                    Covid-19</h2>
 
-                <p>O <b>TR COVID-19 Ag - Bio-Manguinhos</b> é um teste rápido de triagem de uso único. Ele é indicado
-                    para a
-                    detecção qualitativa de antígenos do vírus SARS-CoV-2, pois é capaz de identificar pequenas
-                    quantidades de antígeno em um ensaio de simples execução e resultado rápido. Esse teste é realizado
-                    com amostras de <a data-toggle="tooltip" class="tooltipStyle" title="" data-html="true"
-                        data-original-title="<b><i>Swab</i> Nasofaringeo</b>:<br>
-                    Cotonete longo e estéril aplicado na região nasal e faríngea 
-                    (a região da garganta logo atrás do nariz e da boca).">
-                        <nobr><i>swab</i> nasofaringeo</nobr>
-                    </a>.</p>
+                <p>O novo coronavírus, denominado SARS-CoV-2, causador da doença Covid-19, foi detectado em 29 de
+                    dezembro de 2019, em quatro pacientes com pneumonia admitidos em um hospital na cidade chinesa de
+                    Wuhan. Os quatro haviam trabalhado no Mercado Atacadista de Frutos do Mar de Huanan, que vende aves
+                    vivas, produtos aquáticos e animais selvagens, o que sugeriu a disseminação de animais para pessoas
+                    (BRASIL, 2020a). No entanto, um número crescente de pacientes não teve exposição ao mercado de
+                    animais, indicando a ocorrência de disseminação de pessoa para pessoa (BRASIL, 2021).</p>
 
-                <p>O teste se baseia na tecnologia de <a data-toggle="tooltip" class="tooltipStyle" title=""
-                        data-html="true" data-original-title="<b>Imunocromatografia de Fluxo Lateral</b>:<br> 
-                        Técnica usada para o imunodiagnóstico de doenças infecciosas 
-                        que utiliza um anticorpo de captura ligado à matriz e um anticorpo 
-                        marcado com partículas coloridas para detectar o antígeno.">
-                        <nobr>imunocromatografia de fluxo
-                            lateral</nobr>
-                    </a>, que garante a ampliação
-                    dos
-                    níveis de sensibilidade e especificidade, possibilitando a obtenção de resultados altamente
-                    confiáveis e precisos.</p>
+                <p>Em 9 de janeiro de 2020, a Organização Mundial da Saúde (OMS) confirmou a circulação do novo
+                    coronavírus e poucos dias depois, foi notificado o primeiro caso em território japonês e, dias após,
+                    o primeiro caso nos Estados Unidos. Em 30 de janeiro, a OMS declarou a epidemia uma emergência de
+                    saúde pública de importância internacional. Em março de 2020, a OMS declarou a Covid-19 como uma
+                    pandemia, devido à sua expansão geográfica. O Comitê de Emergência indicou a necessidade de detecção
+                    precoce, quarentena e tratamento rápido (LANA et al., 2020). Até o dia 27 de janeiro de 2022, foram
+                    notificados à OMS 356.955.803 casos confirmados de Covid-19, incluindo 5.610.291 de mortes.</p>
 
-                <p>A leitura dos resultados é visual e de fácil interpretação e fica disponível em apenas 15 minutos.
-                </p>
+                <p>Acompanhe a situação da Covid-19 pelo mundo no painel da OMS em <a href="https://covid19.who.int/"
+                        target="_blank" rel="noopener noreferrer">WHO Coronavirus (COVID-19) Dashboard</a>
+                    (inglês).</p>
 
                 <!-- Imagem ao Centro 1 -->
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <img src="assets/images/aula1/img1.png" class="img-fluid imgCentro" alt="Kit de testes"><br>
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                    </div>
-                </div>
-                <!-- Fim da Imagem ao Centro 1 -->
-
-                <h2 id="topico2">Armazenamento, transporte e manuseio</h2>
-
-                <p>O <b>TR COVID-19 Ag– Bio-Manguinhos</b> é indicado para uso por profissionais capacitados de acordo
-                    com as
-                    instruções fornecidas, sendo um produto destinado exclusivamente para uso de <a
-                        data-toggle="tooltip" class="tooltipStyle" title="" data-html="true"
-                        data-original-title="<b>Diagnóstico <i>In Vitro</i></b>:<br> Do latim, “em vidro”, em referência a forma de realizar - em tubos de ensaio, equipamentos de laboratório ou outros.">diagnóstico
-                        <i>
-                            <nobr>in vitro</nobr>
-                        </i></a>.
-                </p>
-
-                <p>O kit precisa ser mantido em condições adequadas para garantir qualidade e resultados precisos. Para
-                    que a utilização do Kit não seja afetada, é importante estar atento às orientações de armazenamento,
-                    transporte e manuseio.</p>
-
-            </div>
-            <!-- Fim do Bloco 1 -->
-
-            <!-- Box Azul 1 -->
-            <div class="row estilo">
-
-                <div class="col-md-10 blocoTexto">
-
-                    <p class="pinfo">ARMAZENAMENTO</p>
-
-                    <ul>
-                        <li class="icon arrow">
-                            <p>Armazenar em local seco e ao abrigo do calor e umidade e em temperatura entre 2ºC e 30º
-                                C.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Deve ser conservado em geladeira ou em caixas de isopor em locais onde a temperatura
-                                ambiente ultrapasse 30 ºC.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Caso o Kit seja guardado sob refrigeração, é preciso garantir que todos os componentes
-                                estejam à temperatura ambiente no momento de sua utilização.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Nem o kit nem seus componentes devem ser congelados.</p>
-                        </li>
-                    </ul>
-
-                    <p class="pinfo">TRANSPORTE</p>
-
-                    <ul>
-                        <li class="icon arrow">
-                            <p>O kit não é afetado pelo transporte, desde que seja respeitada a condição ideal de
-                                temperatura, descrita no rótulo do produto.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Os suportes de teste devem permanecer lacrados até o momento de sua utilização.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Os testes nunca devem ser utilizados após a data de validade descrita na etiqueta externa
-                                da caixa do kit.</p>
-                        </li>
-
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-1 warningStyle1"><img style="margin-bottom: 24px;"
-                                        src="assets/images/icones/warning.png" alt="Atenção"></div>
-                                <div class="col-md-11 warningStyle2">
-                                    <p><b>O fabricante não
-                                            se responsabiliza pelos resultados quando os insumos não forem
-                                            armazenados nas condições determinadas.</b></p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <!-- Fim do Box Azul 1 -->
-
-            <!-- Bloco 2 -->
-            <div class="conteudo">
-
-                <h2 id="topico3">Elementos do kit</h2>
-
-                <p>Cada Kit <b>TR COVID-19 Ag - Bio-Manguinhos</b> possui os seguintes elementos:</p>
-
-                <!-- Imagem ao Centro 2 -->
                 <div class="row justify-content-center" style="margin-bottom: 24px !important;">
                     <div class="col-md-8">
-                        <img class="img-fluid imgCentro" src="assets/images/aula1/img2.png" alt="Elementos do Kit">
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img1.png"
+                            alt="Votes for women">
+                        <small class="text-muted">Fonte: <a href="https://covid19.who.int/" target="_blank"
+                                rel="noopener noreferrer">WHO</a></small>
                     </div>
                 </div>
-                <!-- Fim da Imagem ao Centro 2-->
 
-                <p>Além dos elementos presentes no Kit, é necessário ter em mãos os materiais de manipulação:</p>
+                <h2 id="topico2">Meio Ambiente e surgimento de pandemias</h2>
 
-                <ul>
-                    <li class="icon caret-right">Cronômetro ou relógio.</li>
-                    <li class="icon caret-right">Luvas descartáveis e jaleco para proteção individual.</li>
-                    <li class="icon caret-right">Algodão.</li>
-                    <li class="icon caret-right">Álcool.</li>
-                    <li class="icon caret-right">Água sanitária ou solução de hipoclorito de sódio a 2,5%.</li>
-                    <li class="icon caret-right">Recipiente seguro para descarte de material biológico.</li>
-                </ul>
+                <p>A pandemia de Covid-19 causou mais incertezas e debates globais do que as anteriores, como SARS
+                    (2002-2003), gripe aviária (2003-2009), gripe suína (2009-2010) e Ebola (2014-2016). Entretanto, as
+                    evidências indicam que essas pandemias não são doenças aleatórias, mas uma consequência da interação
+                    inadequada entre humanos e fauna selvagem (ESPEJO et al., 2020). Essa interação pode ocorrer, entre
+                    outras razões, devido a questões culturais, as iniquidades no acesso à alimentação adequada e a
+                    degradação ambiental.</p>
 
-                <h2 id="topico4">Coleta de amostra e interpretação dos resultados</h2>
+                <p>O vírus SARS-CoV-2 já estava ativo bem antes dos primeiros casos detectados em dezembro de 2019 em
+                    Wuhan. A origem dessa zoonose (doenças infecciosas transmitidas entre animais e pessoas) pode ser
+                    rastreada até as mudanças no ecossistema, que diminuíram a biodiversidade, facilitando muito o
+                    contato entre os humanos e os reservatórios de animais que carregam patógenos, tais como bactérias,
+                    fungos, protozoários e vírus, incluindo o SARS-CoV-2. Neste caso, esses reservatórios de vírus são
+                    os morcegos.</p>
 
-                <p>No vídeo a seguir, você confere o passo a passo para iniciar a coleta de amostra e interpretação do
-                    teste utilizando o Kit <b>TR COVID-19 Ag - Bio-Manguinhos</b>:</p>
+                <p>A transição entre surtos limitados que ocorreram até 2019 e a explosão epidêmica de dezembro-janeiro
+                    de 2020 foi possível devido à amplificação das condições gerais negativas que causaram os pequenos
+                    surtos anteriores. A explosão epidêmica era previsível e poderia ter acontecido onde quer que as
+                    condições que a permitiram pudessem ser replicadas. A globalização da infecção parece ter sido
+                    causada por uma mutação na proteína spike do SARS-CoV-2 que aumentou dramaticamente sua
+                    transmissibilidade (PLATTO, 2021), aliado à circulação de pessoas entre países via transporte aéreo,
+                    falta de adoção de medidas preventivas a tempo, entre outros fatores.</p>
 
-                <!-- Vídeo Embed 1 -->
+                <!-- Anotação 1 -->
+                <div class="row">
+                    <div class="col-sm-1 warningStyle1"><img style="margin-bottom: 24px;"
+                            src="../assets/images/icones/anotacao.png" alt="Atenção"></div>
+                    <div class="col-md-11 warningStyle2">
+                        <p><span class="iconTitle">SPIKE</span> - em português espícula, que é como um espinho,
+                            localizado na parte externa do vírus.</p>
+                    </div>
+                </div>
+
+                <p>As ciências ambientais devem desempenhar um papel importante na compreensão e mitigação das mudanças
+                    e desafios atuais em nível global. Uma abordagem de desenvolvimento sustentável global é altamente
+                    necessária para lidar com essas variações, sendo fundamental uma melhor compreensão das interações
+                    entre meio ambiente, atividades humanas e doenças (ESPEJO et al., 2020).</p>
+
+                <h2 id="topico3">Novas variantes do SARS-CoV-2</h2>
+
+                <p>O SARS-CoV-2, assim como os outros vírus, possui a tendência de se transformar constantemente, o que
+                    chamamos de mutações.</p>
+
+                <!-- Anotação 2 -->
+                <div class="row">
+                    <div class="col-sm-1 warningStyle1"><img style="margin-bottom: 24px;"
+                            src="../assets/images/icones/anotacao.png" alt="Atenção"></div>
+                    <div class="col-md-11 warningStyle2">
+                        <p><span class="iconTitle">MUTAÇÕES</span> - são eventos naturais e esperados dentro da evolução
+                            de um vírus. Essas transformações do vírus levam ao que chamamos de variantes, que
+                            habitualmente tendem a surgir com o passar do tempo.</p>
+                    </div>
+                </div>
+
+                <p>Embora a maioria das mutações não tenha impacto significativo na disseminação do vírus, algumas
+                    mutações ou combinações de mutações podem oferecer ao vírus uma vantagem seletiva, como maior
+                    transmissibilidade ou a capacidade de evitar a resposta imune do hospedeiro, ou seja, de evitar que
+                    o organismo consiga combater o vírus.</p>
+
+                <p>A OMS avalia rotineiramente se as mutações do SARS-CoV-2 – mais conhecidas como variantes do vírus -
+                    resultam em alterações na transmissibilidade, apresentação clínica e gravidade da doença ou se têm
+                    impacto no diagnóstico, tratamento ou na eficácia das vacinas.</p>
+
+                <p>Algumas variantes emergentes independentes do SARS-CoV-2 foram notificadas à OMS. Evidências
+                    científicas recentes indicam que algumas novas variantes do SARS-CoV-2 se espalham mais fácil e
+                    rapidamente do que outras variantes. Mas ainda são necessários mais estudos para entender o quanto
+                    elas estão disseminadas no mundo, as diferenças clínicas, o potencial de reinfecção e se elas podem
+                    afetar o tratamento das pessoas afetadas, o diagnóstico e a eficácia das vacinas (BRASIL, 2021).</p>
+
+                <h2 id="topico4">Transmissão do SARS-CoV-2</h2>
+
+                <p>Compreender como, quando e em quais ambientes as pessoas infectadas podem transmitir o vírus
+                    SARS-CoV-2 é importante para o desenvolvimento e implementação de medidas de controle voltadas para
+                    quebrar as cadeias de transmissão (WHO, 2020).</p>
+
+                <p>A transmissão do SARS-CoV-2 pode ocorrer por meio do contato direto, indireto ou próximo com pessoas
+                    infectadas, por meio de secreções infectadas, como saliva e secreções respiratórias ou gotículas
+                    respiratórias, que são expelidas quando uma pessoa infectada tosse, espirra, fala ou canta.</p>
+
+                <p>Como ocorre a transmissão do SARS-CoV-2:</p>
+
+                <!-- Video Embed 1 -->
                 <div class="row justify-content-center" style="margin-bottom: 24px !important;">
                     <div class="col-md-8">
 
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2PLiKMSWoFs"
-                                frameborder="0" allow="encrypted-media" allowfullscreen="allowfullscreen"
-                                preload="none"></iframe>
+                            <iframe src="https://drive.google.com/file/d/1COdbc4PJO7nLU1dMkpBk28cDUrQU_kLw/preview"
+                                width="640" height="480" allow="autoplay"></iframe>
                         </div>
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.youtube.com/channel/UCWSTFJsqh06RXvyAUVZc4Nw" target="_blank"
-                                rel="noopener noreferrer">Canal do YouTube
-                                biofiocruz</a></b></small>
+                        <small class="text-muted">Fonte: <a
+                                href="https://www.youtube.com/watch?v=oqFn6AHoJZQ&feature=youtu.be" target="_blank"
+                                rel="noopener noreferrer">Canal Youtube World Health Organization</a></small>
                     </div>
                 </div>
                 <!-- Fim do Vídeo Embed 1 -->
 
-                <div class="row">
-                    <div class="col-md-1"><img style="margin-bottom: 24px;"
-                            src="assets/images/icones/Icon ionic-md-warning.png" alt="Atenção"></div>
+                <p>A seguir, veja mais sobre os tipos de transmissão!</p>
 
-                    <div class="col-md-11">
-                        <p>A leitura do resultado do teste deverá ser realizada em 15 minutos. Não interpretar o
-                            resultado após
-                            esse tempo.</p>
+                <p><span class="iconTitle">Transmissão por gotículas</span></p>
 
-                        <p>Os Kits não devem ser fracionados e os componentes de Kits de lotes diferentes nunca devem
-                            ser
-                            misturados.</p>
+                <p>A transmissão de gotículas respiratórias pode ocorrer quando uma pessoa está em contato próximo (até
+                    1 metro) com uma pessoa infectada com sintomas respiratórios (por exemplo, tosse ou espirro) ou que
+                    está falando ou cantando. Nessas circunstâncias, as gotículas respiratórias que incluem o vírus
+                    podem atingir a boca, o nariz ou os olhos de uma pessoa suscetível e podem resultar em uma infecção.
+                    Também pode ocorrer a transmissão por contato indireto, envolvendo o contato com um objeto ou
+                    superfície contaminada (Transmissão por fômite) e em seguida, tocar a boca, nariz ou olhos (WHO,
+                    2020; BRASIL, 2021).</p>
 
-                        <p>Verifique o prazo de validade do produto e a integridade dos componentes do kit antes de cada
-                            aplicação.</p>
+                <p><span class="iconTitle">Transmissão por via aérea</span></p>
+
+                <p>A transmissão aérea é definida como a disseminação de um agente infeccioso por núcleos de gotículas
+                    (aerossóis), que permanecem infecciosos quando suspensos no ar por longas distâncias e tempo. A
+                    transmissão aérea do SARS-CoV-2 pode ocorrer durante procedimentos médicos que geram aerossóis, como
+                    intubação e reanimação.</p>
+
+                <p>Estudos têm avaliado se o SARS-CoV-2 também pode se espalhar através de aerossóis, mesmo na ausência
+                    de procedimentos geradores de aerossol, particularmente em ambientes fechados com ventilação
+                    insuficiente ou por exposição prolongada a concentrações elevadas de aerossol em espaços fechados
+                    (WHO, 2020; MENESES, 2020).</p>
+
+                <p>Alguns relatos de surtos relacionados a espaços fechados lotados, fora de serviços de saúde,
+                    sugeriram a possibilidade de transmissão por aerossol, combinada com a transmissão de gotículas -
+                    como durante a prática de coral, em restaurantes ou em aulas de ginástica. Nesses eventos, a
+                    transmissão por aerossol de curto alcance, particularmente em locais internos específicos, como
+                    espaços lotados e inadequadamente ventilados por um tempo prolongado com pessoas infectadas, não
+                    pode ser descartada.</p>
+
+                <p>Investigações detalhadas desses aglomerados sugerem que a transmissão por gotículas e fômites (que
+                    veremos a seguir) também pode explicar a transmissão de humano para humano dentro desses
+                    aglomerados. Além disso, os ambientes de contato próximo desses grupos podem ter facilitado a
+                    transmissão de um pequeno número de casos para muitas outras pessoas, especialmente se a higiene das
+                    mãos não foi realizada, as máscaras não foram usadas e o distanciamento físico não foi mantido (WHO,
+                    2020).</p>
+
+                <!-- Imagem ao Centro 2 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img2.png"
+                            alt="Diferença entre gotículas e transmissão via aérea">
                     </div>
                 </div>
 
-                <h2 id="topico5">Boas práticas de manipulação</h2>
+                <p>As gotículas respiratórias têm tamanho entre 5 e 10 μm de diâmetro (unidade de medida microscópica -
+                    milésima parte do mm). Quando possuem menos de 5μm de diâmetro são chamadas de aerossóis ou de
+                    núcleos de gotículas.</p>
 
-                <p>Para que a qualidade dos resultados obtidos no teste não seja comprometida é importante o
-                    cumprimento
-                    de boas práticas:</p>
+                <p><span class="iconTitle">Transmissão por fômite</span></p>
+
+                <p>Secreções respiratórias ou gotículas expelidas por indivíduos infectados podem contaminar superfícies
+                    e objetos, criando fômites, que são as superfícies contaminadas.</p>
+
+                <p>O vírus SARS-CoV-2 viável e/ou RNA detectado por RT-PCR podem ser encontrados nessas superfícies por
+                    períodos que variam de horas a dias, dependendo do ambiente - temperatura e umidade - e do tipo de
+                    superfície. Uma alta concentração de vírus foi encontrada nas unidades de saúde onde pacientes com
+                    Covid-19 estavam sendo tratados.</p>
+
+                <!-- Anotação 3 -->
+                <div class="row">
+                    <div class="col-sm-1 warningStyle1"><img style="margin-bottom: 24px;"
+                            src="../assets/images/icones/anotacao.png" alt="Atenção"></div>
+                    <div class="col-md-11 warningStyle2">
+                        <p><span class="iconTitle">RT-PCR</span> - exame que identifica o material genético do vírus.
+                        </p>
+                    </div>
+                </div>
+
+                <p>A transmissão também pode ocorrer indiretamente através do contato com superfícies no ambiente
+                    imediato, ou objetos contaminados com vírus de uma pessoa infectada (por exemplo, estetoscópio ou
+                    termômetro), seguido de toque na boca, nariz ou olhos (WHO, 2020).</p>
+
+                <p>Estudos preliminares demonstraram que o vírus da Covid-19 pode sobreviver por até 72 horas em
+                    plástico e aço inoxidável, menos de 4 horas em cobre e menos de 24 horas em papelão. Outros estudos
+                    indicam que o vírus SARS-CoV-2 pode sobreviver por um longo tempo em temperaturas entre -2 e 4°C,
+                    porém sobrevive apenas 5 minutos a 70°C e são estáveis à temperatura ambiente, em pH de 3-10.
+                    Contudo, estes estudos não são definitivos, uma vez que o tempo de sobrevivência do vírus pode
+                    sofrer influência de diversas condições (BRASIL, 2020b; ESPEJO et al., 2020).</p>
+
+                <!-- Imagem ao Centro 3 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img3.png"
+                            alt="Superfícies e o tempo de sobrevivência do SARS-CoV-2">
+                    </div>
+                </div>
+
+                <p><span class="iconTitle">Transmissão por pessoas infectadas</span></p>
+
+                <p><b>Com sintomas</b><br>
+                    O SARS-CoV-2 é transmitido principalmente por pessoas sintomáticas e sua concentração é mais alta no
+                    trato respiratório superior – nariz e garganta – principalmente a partir do terceiro dia após o
+                    início dos sintomas. Pessoas infectadas com SARS-CoV-2, que apresentam sintomas, podem infectar
+                    outras pessoas, principalmente por meio de gotículas e contato próximo (WHO, 2020).</p>
+
+                <p>Dados preliminares indicam que alguns pacientes com Covid-19 podem transmitir o vírus de 24 a 48
+                    horas antes do início dos sintomas e por até 3 semanas após o início dos sintomas, o que destaca a
+                    importância do distanciamento físico.</p>
+
+                <p>Fora do ambiente doméstico, pessoas que tiveram contato físico próximo com uma pessoa com Covid-19
+                    sintomática, que compartilharam refeições apresentam maior risco de infecção. Também apresentam
+                    risco aumentado se estiveram junto com pessoas sintomáticas, em espaços fechados, por uma hora ou
+                    mais, como em locais de culto, academias, locais de trabalho, entre outros (WHO, 2020).</p>
+
+                <p><b>Sem sintomas</b><br>
+                    O vírus também pode ser transmitido por pessoas assintomáticas. Um caso assintomático é
+                    caracterizado pela confirmação laboratorial do SARS-CoV-2 em um indivíduo que não desenvolve
+                    sintomas (BRASIL, 2020b). Vários estudos demonstraram que pessoas podem infectar outras antes de
+                    apresentarem sintomas (WHO, 2020).</p>
+
+
+                <h2 id="topico5">Manifestações clínicas da Covid-19</h2>
+
+                <p>O período de incubação da Covid-19 é definido como o tempo entre a exposição ao vírus e o início dos
+                    sintomas e é em média de 05 dias, podendo ser de até 14 dias. As manifestações clínicas podem surgir
+                    entre o primeiro e o décimo quarto dia após a exposição. O diagnóstico rápido de infectados e o
+                    reconhecimento precoce dos contactantes, aqueles que tiveram contato com o caso confirmado, são
+                    essenciais para impedir a transmissão e prover os cuidados de saúde necessários com rapidez (BRASIL,
+                    2021; MENESES, 2020).</p>
+
+                <p>O quadro clínico inicial mais comum da Covid-19 é semelhante à síndrome gripal, com o paciente
+                    apresentando febre e/ou sintomas respiratórios, mas também podem ocorrer outras manifestações, como
+                    sintomas gastrointestinais e a perda do paladar e do olfato. Os casos leves representam cerca de 80%
+                    dos casos e não necessitam de oxigenoterapia ou internação hospitalar. Já os casos graves da doença
+                    ocorrem em torno de 14% dos casos e necessitam de hospitalização. Os casos críticos da doença
+                    ocorrem em cerca de 5% dos pacientes com Covid-19 e evoluem rapidamente para falência respiratória,
+                    com necessidade de suporte ventilatório, choque séptico e disfunção múltipla de órgãos (MENESES,
+                    2020).</p>
+
+                <p>Os sinais e sintomas mais comuns da Covid-19 são: febre, tosse e falta de ar. Outros sintomas não
+                    específicos incluem: dor de cabeça; calafrios; dor de garganta; coriza; diarreia e outros sintomas
+                    gastrointestinais; perda parcial ou total do olfato; diminuição ou perda total do paladar; dores
+                    musculares e cansaço ou fadiga. Os idosos com Covid-19 podem apresentar um quadro diferente das
+                    pessoas mais jovens que, por exemplo, podem não apresentar febre, evoluir com hipotermia, confusão
+                    mental ou apresentar queda da própria altura (BRASIL, 2021).</p>
+
+                <!-- Imagem ao Centro 4 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img4.png"
+                            alt="Sintomas da Covid-19"><small class="text-muted">
+                            <nobr>Fonte: <a href="https://mooc.campusvirtual.fiocruz.br/rea/ilpi/index.html"
+                                    target="_blank" rel="noopener noreferrer">Campus Virtual Fiocruz</nobr></a>
+                        </small>
+                    </div>
+                </div>
+
+                <h2 id="topico6">Agravantes para as manifestações clínicas</h2>
+
+                <p>As manifestações clínicas da Covid-19 em termos de sua gravidade, a mortalidade (quantos pacientes
+                    morrem em relação à população) e a letalidade (quantos pacientes morrem em relação ao total de
+                    pessoas com a doença) sofrem influência significativa do contexto socioeconômico das populações
+                    atingidas. Ainda que idosos e pessoas com várias condições de saúde prévias à Covid-19 possam
+                    desenvolver quadros mais graves, o grau de vulnerabilidade social e econômica dos indivíduos e
+                    populações tem importante determinação para a evolução do quadro do paciente.</p>
+
+                <p>As dificuldades de acesso a serviços básicos de saúde e/ou serviços de urgência e emergência, assim
+                    como os locais e as condições de moradia, a alimentação, a cor da pele, o acesso à informação,
+                    influenciam diretamente as chances de um indivíduo e de uma dada população em adoecer e morrer pela
+                    Covid-19.</p>
+
+                <p>Segundo <a
+                        href="https://portal.fiocruz.br/sites/portal.fiocruz.br/files/documentos/boletim_final.pdf"
+                        target="_blank" rel="noopener noreferrer">Boletim 2 Socioepidemiológico das Favelas</a>, com
+                    dados da Secretaria Municipal de Saúde do Rio
+                    de Janeiro, colhidos entre junho e setembro de 2020, bairros com altas ou altíssimas concentrações
+                    de favela, tinham uma incidência da doença mais importante, assim como uma maior mortalidade e
+                    letalidade (FIOCRUZ, 2020).</p>
+
+                <!-- Imagem ao Centro 5 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img5.png"
+                            alt="Boletim Socioepidemiológico das Favelas">
+                    </div>
+                </div>
+
+                <p>Todas as faixas etárias podem ser acometidas pela Covid-19, mas a ocorrência da doença e sua
+                    gravidade em cada faixa etária variaram ao longo da pandemia. No caso do Brasil, se comparamos a
+                    mortalidade materna (gestantes e puérperas) por Covid-19 nas semanas epidemiológicas de 2020 com as
+                    semanas epidemiológicas de 2021, observamos que em 2021 a mortalidade materna/semana epidemiológica
+                    foi quatro vezes maior do que em 2020. Também a gravidade da doença em gestantes e puérperas foi
+                    mais importante entre os casos de Covid-19 que ocorreram neste segmento da população no ano de 2021
+                    do que em 2020 (RODRIGUES; LACERDA; FRANCISCO, 2021).</p>
+
+                <h2 id="topico7">“Covid longa”</h2>
+
+                <p>Um outro aspecto sobre as manifestações clínicas é que o adoecimento pela Covid-19 tem se
+                    caracterizado em muitos casos pela longa duração de sintomas clínicos. A “Covid Longa” é definida
+                    como a presença de sinais e sintomas que se desenvolvem durante ou após a infecção pela Covid-19 e
+                    que persistem por 12 ou mais semanas.</p>
+
+                <p>Um em cada dez pacientes acometidos pela Covid-19 desenvolve a Síndrome da Covid Longa
+                    (<a href="https://world.physio/wptday" target="_blank"
+                        rel="noopener noreferrer">www.world.physio/wptday</a>).</p>
+
+                <!-- Imagem ao Centro 6 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img6.png"
+                            alt="Síndrome da Covid Longa">
+                    </div>
+                </div>
+
+                <h2 id="topico8">Novas cepas: transmissibilidade e sintomas</h2>
+
+                <p>Algumas variantes foram identificadas do SARS-CoV-2, como alpha, beta, gama, delta, kappa e ômicron
+                    com diferentes combinações de mutações, e que podem desencadear diferentes transmissibilidades,
+                    quadros clínicos e respostas imunes.</p>
+
+                <p>Aparentemente, todas essas variantes têm maior transmissibilidade, mas não se pode afirmar que tenham
+                    capacidade de causar doenças mais graves e ou que consigam “escapar” das atuais vacinas existentes
+                    (KHATEEB et al., 2021). Na maioria das situações em que ocorre um número maior de casos graves por
+                    uma dessas variantes, o fato se explica mais pelo aumento da transmissibilidade, ou seja, um número
+                    maior de casos e, por consequência, a um número maior de casos graves.</p>
+
+                <p>Podem ocorrer reinfecções pelo SARS-CoV-2, seja pela mesma cepa da primeira infecção ou por infecção
+                    por outras variantes que prejudicam a resposta do organismo da pessoa na primeira infecção. O
+                    primeiro caso pode ocorrer em casos de uma curta duração da imunidade, isto é, da capacidade de
+                    resistir à infecção do vírus, ou por uma resposta de anticorpos frágil ou ausente.</p>
+
+                <p>A ocorrência de um quadro sintomático durante a reinfecção pelo SARS-CoV-2, em uma pessoa que na
+                    primeira infecção não teve sintomas ou teve poucos sintomas, pode ser explicado tanto por sua
+                    resposta imune, como pela exposição a uma carga viral maior (FINTELMAN et al., 2021).</p>
+
+                <h2 id="topico9">Principais medidas não farmacológicas para a prevenção da Covid-19</h2>
+
+                <p>As estratégias mais importantes para a prevenção da Covid-19 são as chamadas “medidas não
+                    farmacológicas” e a utilização de vacinas.</p>
+
+                <p>As medidas não farmacológicas para a prevenção da Covid-19 (sem uso de medicamentos ou vacinas)
+                    compreendem um conjunto de ações, baseadas em evidências científicas, que visam reduzir a
+                    transmissão do SARS-CoV-2. São medidas de saúde pública importantes e devem ser aplicadas para
+                    indivíduos e populações.</p>
+
+                <!-- Imagem ao Centro 7 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img7.png"
+                            alt="As principais medidas não farmacológicas recomendadas">
+                    </div>
+                </div>
+
+                <p>Essas são medidas reconhecidas e efetivas de vigilância para a redução do risco de danos associados a
+                    emergência de saúde pública (AKERMAN; CASTIEL, 2021). A intensidade de sua aplicação deve ser
+                    avaliada considerando indicadores epidemiológicos e demográficos, assim como aspectos de
+                    vulnerabilidade social e econômica dos indivíduos e populações sob a responsabilidade dos serviços
+                    de saúde.</p>
+
+                <h2 id="topico10">Políticas públicas como medida de prevenção</h2>
+
+                <p>É preciso considerar que as medidas não farmacológicas tendem a ser perenes, pois o “vírus veio para
+                    ficar”. Deve-se pensar nelas não apenas como medidas individuais, mas como pistas para intervenções
+                    que possam melhorar as condições de vida e transporte dos indivíduos e das populações.</p>
+
+                <p>Ainda assim, as medidas não farmacológicas para a prevenção da transmissão do coronavírus precisam
+                    ser acompanhadas de outros investimentos em políticas sociais e de enfrentamento de problemas
+                    anteriores à pandemia, como por exemplo, o caso do desemprego e da violência doméstica. A pandemia
+                    escancarou muitos outros problemas já presentes, mas que com o aumento da desigualdade houve piora,
+                    além do desemprego e violência doméstica, a fome, a insegurança alimentar…</p>
+
+                <p>Muitos movimentos sociais, especialmente em contextos de comunidades de favelas, reivindicaram que a
+                    implementação de medidas de isolamento e quarentena fossem acompanhadas da expansão de programas de
+                    auxílio financeiro e de distribuição de renda para indivíduos e grupos mais vulneráveis
+                    economicamente.</p>
+
+                <p>No Equador, o movimento feminista denunciou o aumento da violência contra mulher no período da
+                    quarentena, no sentido de evidenciar que apesar do ambiente doméstico ser o mais seguro em relação a
+                    proteção ao vírus, era também o ambiente mais suscetível para a vivência da violência doméstica.
+                    Assim, a efetividade das ações das medidas de saúde pública e de enfrentamento às emergências
+                    sanitárias precisam ser acompanhadas de outros programas intersetoriais.</p>
+
+                <p>A seguir, conheça um caso de mobilização comunitária contra Covid-19.</p>
+
+                <h2 id="topico11">Salud Cherán – a experiência de uma comunidade indígena no México</h2>
+
+                <p>Desde o início da pandemia de Covid-19, uma comunidade indígena autônoma no México chamada Cherán,
+                    implementou medidas sanitárias para prevenir sua expansão. Dentre as medidas empregadas estão a
+                    introdução de barreiras sanitárias nas entradas da comunidade, a difusão de informações de prevenção
+                    pela rádio comunitária, a coleta e distribuição de alimentos para os mais vulneráveis, distribuição
+                    de testes rápidos e empréstimo de tubos de oxigênio, ações de desinfecção das ruas, boletins
+                    informativos e campanhas de prevenção.</p>
+
+                <p>Mesmo sem muitos recursos, as campanhas eram realizadas muitas vezes no papel e depois difundidas
+                    pelas redes sociais. A seguir material desenvolvido pela comunidade sobre a história natural da
+                    doença.</p>
+
+                <!-- Imagem ao Centro 8 -->
+                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
+                    <div class="col-md-10">
+                        <img class="img-fluid imgCentro" src="../assets/images/modulo2/aula1/img8.png"
+                            alt="As principais medidas não farmacológicas recomendadas">
+                        <small class="text-muted">Fonte: <a
+                                href="https://www.facebook.com/photo/?fbid=475650823446757&set=a.113659689645874"
+                                target="_blank" rel="noopener noreferrer">Perfil Salud Chéran no Facebook</a></small>
+                    </div>
+                </div>
+
+                <h2 id="topico12" class="topicosFinais">Resumo da aula</h2>
+
+                <p>A Covid-19 é uma doença transmissível, principalmente através da transmissão respiratória. Esse
+                    aspecto traz muita relevância para que ambientes fechados (pouca ventilação), aglomerações e
+                    permanência por períodos mais prolongados sejam fatores de importante contribuição para a
+                    transmissão da doença. Ainda que a maior parte dos casos não apresente sintomas ou poucos sintomas,
+                    a ocorrência de muitos casos pode levar a situações graves e de óbitos, como tem sido o panorama da
+                    Covid-19 na América Latina e Caribe.</p>
+
+                <p>A Covid-19 se manifesta de forma aguda, mas pelo menos um em cada dez casos apresenta a Covid-19 de
+                    longa duração, atingindo idosos, jovens e crianças. Além das vacinas, as principais medidas de
+                    prevenção são as chamadas medidas não farmacológicas, que devem ser concebidas, não só relacionadas
+                    aos indivíduos, mas também às populações, de forma a reduzir riscos e vulnerabilidades de ordem
+                    social e econômica.</p>
+
+                <p>Para saber mais sobre a Covid-19, acesse o curso: Manejo da Infecção Causada pelo Coronavírus.</p>
+
+                <h2 id="topico13" class="topicosFinais">Leitura Recomendada</h2>
 
                 <ul>
-                    <li class="icon circle">A realização do teste deve ser feita apenas por profissionais
-                        capacitados.
+                    <li class="icon circle"><a
+                            href="https://redecovida.org/main-site-covida/wp-content/uploads/2020/04/Boletim-4_Rede-CoVida_finall.pdf"
+                            target="_blank" rel="noopener noreferrer">Boletim CoVida PANDEMIA DE COVID-19: Fortalecer o
+                            Sistema de
+                            Saúde para Proteger a População</a></li>
+                    <li class="icon circle"><a
+                            href="https://portal.fiocruz.br/noticia/risco-e-vulnerabilidade-quem-rege-politica-publica"
+                            target="_blank" rel="noopener noreferrer">Risco e Vulnerabilidade: quem rege a política
+                            pública</a></li>
+                    <li class="icon circle"><a
+                            href="https://www.who.int/pt/emergencies/diseases/novel-coronavirus-2019/advice-for-public?gclid=Cj0KCQjw3f6HBhDHARIsAD_i3D_UT26f4W-r-DVGE7njwmY1oFMRFzX6bLNrJgAnyqNdAeFhipM3FGMaAngeEALw_wcB"
+                            target="_blank" rel="noopener noreferrer">Conselhos sobre doença coronavírus (COVID-19) para
+                            o público</a>
                     </li>
-                    <li class="icon circle">Deve-se usar equipamentos de proteção individual (EPI) durante toda a
-                        etapa
-                        de realização do teste.</li>
-                    <li class="icon circle">Além do uso de EPI, deve-se seguir todas as demais normas de
-                        biossegurança.
+                    <li class="icon circle"><a href="https://portal.fiocruz.br/coronavirus/material-para-download"
+                            target="_blank" rel="noopener noreferrer">Coronavírus | Covid-19 - Material para
+                            download</a></li>
+                    <li class="icon circle"><a href="https://www.paho.org/pt/materiais-comunicacao-sobre-covid-19"
+                            target="_blank" rel="noopener noreferrer">Materiais de comunicação sobre COVID-19</a></li>
+                    <li class="icon circle">
+                        <p><a href="https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions"
+                                target="_blank" rel="noopener noreferrer">Transmission of SARS-CoV-2: implications for
+                                infection
+                                prevention precautions (inglês)</a></p>
                     </li>
                 </ul>
 
-                <!-- Texto com imagem à esquerda -->
-                <div class="row justify-content-center">
-                    <div class="col-md-5" style="padding: 0px !important;">
-                        <figure class="figure" style="float: right;">
-                            <img src="assets/images/aula1/img3.png" class="img-fluid" alt=""><br>
-
-                            <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                    href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/dpp-covid19-ag"
-                                    target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-5 centro" style="padding: 0px;">
-                        <p style="float: left;">O teste deve ser feito por um profissional capacitado para
-                            processamento
-                            de amostras clínicas
-                            e que esteja utilizando EPIs adequados: luvas descartáveis, jaleco, máscara e óculos ou
-                            protetor facial.<br><br>
-
-                            Acesse o Manual do teste no <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">site de Bio-Manguinhos</a>.</p>
-                    </div>
-                </div>
-                <!-- Fim texto com imagem à esquerda -->
-
             </div>
-            <!-- Fim do Bloco 2 -->
-
-            <!-- Box Azul 2 -->
-            <div class="row estilo">
-                <div class="col-md-10 blocoTexto">
-                    <p class="pinfo">Biossegurança em Foco - Curso livre</p>
-                    <div class="row" style="margin-bottom: 30px!important;">
-                        <div class="col-md-6">
-                            <figure class="figure">
-                                <div class="cardImg" style="float: right;">
-                                    <img src="assets/images/aula1/img4.png" class="img-fluid" alt="">
-                                </div>
-                            </figure>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p>Para saber mais sobre diretrizes de biossegurança, matricule-se no curso
-                                Biossegurança em
-                                Foco. O curso tem como objetivo fortalecer um conjunto de ações para prevenir,
-                                controlar, reduzir ou minimizar riscos inerentes às atividades que possam
-                                comprometer a
-                                saúde humana, animal e o meio ambiente.</p>
-
-                            <p>Acesse o <u><a href="https://campusvirtual.fiocruz.br/portal/?q=node/63286"
-                                        target="_blank" rel="noopener noreferrer">Campus Virtual Fiocruz</a></u> para se
-                                matricular no curso.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Fim do Box Azul 2 -->
-
-            <!-- Bloco 3 -->
-            <div class="conteudo">
-
-                <div class="row">
-                    <div class="col-md-1"><img style="margin-bottom: 24px;"
-                            src="assets/images/icones/Icon ionic-md-warning.png" alt="Atenção"></div>
-                    <div class="col-md-11">
-
-                        <p style="margin-bottom: 0px!important;">O Kit <b>TR COVID-19 Ag -
-                                Bio-Manguinhos</b> pode
-                            representar uma fonte de risco. Os resíduos gerados durante a aplicação do teste devem
-                            ser descartados em locais apropriados e enviados para tratamento de resíduos infectantes,
-                            de acordo com a legislação da sua região.</p>
-                    </div>
-                </div>
-
-                <h2 id="topico6">Chegamos ao fim da aula</h2>
-
-                <p>Nessa aula você aprendeu como manusear o Kit TR COVID-19 Ag, identificar os elementos que
-                    fazem
-                    parte do conjunto, realizar o teste em humanos e interpretar os resultados.</p>
-
-                <!-- Texto com imagem à direita -->
-                <div class="row" style="margin-bottom: 24px !important;">
-                    <div class="col-md-6 centro">
-
-                        <p>Antes de seguir para a próxima aula, recomendamos que você baixe o <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/images/bm-bul-152-00-r-sn-guia-rapido-ag-humasis.pdf"
-                                target="_blank" rel="noopener noreferrer">Guia Rápido TR COVID-19 Ag</a>
-                            - Procedimentos de coleta da amostra, execução do ensaio e interpretação dos resultados,
-                            imprima e deixe em lugar vísivel, no ambiente onde são realizados os testes.</p>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <figure class="figure">
-                            <div class="cardImg">
-                                <a href="https://www.bio.fiocruz.br/images/bm-bul-152-00-r-sn-guia-rapido-ag-humasis.pdf"
-                                    target="_blank" rel="noopener noreferrer"><img src="assets/images/aula1/img5.png"
-                                        class="img-fluid rounded" alt=""></a>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Fim texto com imagem à direita -->
-
-            </div>
-            <!-- Fim do Bloco 3 -->
+            <!-- Fim do Bloco 1 -->
 
             <!-- Barra de Navegação -->
             <div class="row navegacao">
                 <div class="col-md-6 border-right text-left" id="anterior">
-                    <a href="index.html">
-                        <i class="fas fa-chevron-left" style="margin-right: 15px; margin-top: 5px;"></i>INÍCIO
-                        <p style="margin-top: 0px !important;">Apresentação do curso</p>
+                    <a href="../modulo1/modulo1-aula3.html">
+                        <i class="fas fa-chevron-left" style="margin-right: 15px; margin-top: 5px;"></i>AULA ANTERIOR
+                        <p style="margin-top: 0px !important;">Movimentos sociais na América Latina e resposta às
+                            emergências de saúde pública</p>
                     </a>
 
                 </div>
                 <div class="col-md-6 border-left text-right" id="proxima">
-                    <a href="./aula2.html"><b>PRÓXIMA AULA<i class="fas fa-chevron-right"
+                    <a href="modulo2-aula1.html"><b>PRÓXIMA AULA<i class="fas fa-chevron-right"
                                 style="margin-left: 15px; margin-top: 5px;"></i>
-                            <p style="margin-top: 0px !important;">Teste TR DPP<sup>®</sup> COVID-19 Ag
-                        </b></p>
+                            <p style="margin-top: 0px !important;">Vacinação: conceitos, desenvolvimento e desafios</p>
                     </a>
 
                 </div>
@@ -678,10 +1505,8 @@
             <footer>
                 <div class="row-main">
                     <div class="col-md-12 centro">
-                        <img class="img-fluid centro" style="max-width: 60%;" id="rodape1" src="" alt="">
-                    </div>
-                    <div class="col-md-12 centro" id="colunaRodape">
-                        <img class="img-fluid centro" style="max-width: 100%;" id="rodape2" src="" alt="">
+                        <img class="img-fluid centro" style="max-width: 60%;" src="../assets/images/rodape/rodape.png"
+                            alt="Rodapé">
                     </div>
                 </div>
             </footer>
@@ -697,1416 +1522,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/sidebar.js"></script>
-
-</body>
-
-</html><!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="utf-8">
-    <title>Treinamento testes rápidos Covid-19 - Aula 1</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
-    <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <!-- Menu Superior -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
-
-            <!-- Logos -->
-            <img src="assets/images/logos/logoAula.png" class="img-fluid logo" alt="Logo Fiocruz" />
-
-            <!-- Botão Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="material-complementar.html">Material Complementar</a></li>
-                    <li><a href="creditos.html">Créditos</a></li>
-                </ul>
-            </div>
-
-        </nav>
-    </header>
-    <!-- Fim do Menu Superior -->
-
-    <!-- Início da Row-main-->
-    <div class="row" id="row-main">
-
-        <!-- Início da Coluna do Menu Lateral-->
-        <div class="col-md-2" id="sidebar">
-
-            <!-- Step Menu -->
-            <div id="accordion" class="stepContainer">
-
-                <!-- Botão p/ Recolher Sidebar-->
-                <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
-
-                <!-- Botão Secundário p/ Recolher Sidebar -->
-                <span class="toggle-sidebar" id="sidebarButton2"><img style="max-width: 50%;"
-                        src="assets/images/icones/icone.png" alt=""></span>
-
-                <!-- Step 1 -->
-                <div class="step" id="aula1">
-                    <div class="v-stepper">
-                        <div class="circle">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu open">
-                        <div class="link title">
-                            <a class="aula1" style="cursor: pointer;">Aula 1</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse show" id="collapseAula1">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico1"></div>
-                                </div>
-                                <p><a href="#topico1">Sobre o Kit TR COVID-19 Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico2"></div>
-                                </div>
-                                <p><a href="#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico3"></div>
-                                </div>
-                                <p><a href="#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico4"></div>
-                                </div>
-                                <p><a href="#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico5"></div>
-                                </div>
-                                <p><a href="#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico6"></div>
-                                </div>
-                                <p><a href="#topico6">Conclusão da aula</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim do Step 1 -->
-
-                <!-- Step 2 -->
-                <div class="step" id="aula2">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula2" style="cursor: pointer;">Aula 2</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula2">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico1"></div>
-                                </div>
-                                <p><a href="aula2.html#topico1">Sobre o Kit TR DPP<sup>®</sup> COVID-19 Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico2"></div>
-                                </div>
-                                <p><a href="aula2.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico3"></div>
-                                </div>
-                                <p><a href="aula2.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico4"></div>
-                                </div>
-                                <p><a href="aula2.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico5"></div>
-                                </div>
-                                <p><a href="aula2.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico6"></div>
-                                </div>
-                                <p><a href="aula2.html#topico6">Conclusão da aula</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim Step 2 -->
-
-                <!-- Step 3 -->
-                <div class="step" id="aula3">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula3" style="cursor: pointer;">Aula 3</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula3">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico1"></div>
-                                </div>
-                                <p><a href="aula3.html#topico1">Sobre o Kit TR SARS-CoV-2 Ag</a>
-                                </p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico2"></div>
-                                </div>
-                                <p><a href="aula3.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico3"></div>
-                                </div>
-                                <p><a href="aula3.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico4"></div>
-                                </div>
-                                <p><a href="aula3.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico5"></div>
-                                </div>
-                                <p><a href="aula3.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico6"></div>
-                                </div>
-                                <p><a href="aula3.html#topico6">Conclusão da aula</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim Step 3 -->
-
-                <!-- Step 4 -->
-                <div class="step" id="aula4">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula4" style="cursor: pointer;">Aula 4</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula4">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico1"></div>
-                                </div>
-                                <p><a href="aula4.html#topico1">Sobre o Kit Teste Rápido COVID Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico2"></div>
-                                </div>
-                                <p><a href="aula4.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico3"></div>
-                                </div>
-                                <p><a href="aula4.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico4"></div>
-                                </div>
-                                <p><a href="aula4.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico5"></div>
-                                </div>
-                                <p><a href="aula4.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico6"></div>
-                                </div>
-                                <p><a href="aula4.html#topico6">Conclusão da aula</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Fim Step 4 -->
-
-            </div>
-            <!-- Fim do Step Menu -->
-
-        </div> <!-- Fim da Coluna Menu Lateral -->
-
-        <!-- Início Coluna de Conteúdo -->
-        <div class="col-md-10" id="content">
-
-            <!-- Bloco 1 -->
-            <div class="conteudo">
-
-                <img class="tarja" src="assets/images/aula1/tarjaAula1.png" alt="Tarja Aula 1">
-
-                <h1>Teste TR COVID-19 Ag - Bio-Manguinhos</h1>
-
-                <p><b>Ao final desta aula, você será capaz de:</b></p>
-
-                <ul>
-                    <li class="icon checkmark">
-                        <p>Identificar os elementos que compõem o Kit TR COVID-19 Ag.</p>
-                    </li>
-
-                    <li class="icon checkmark">
-                        <p>Realizar o TR COVID-19 Ag em humanos.</p>
-                    </li>
-
-                    <li class="icon checkmark">
-                        <p>Interpretar os resultados do TR COVID-19 Ag.</p>
-                    </li>
-                </ul>
-
-                <h2 id="topico1">Sobre o Kit TR COVID-19 Ag</h2>
-
-                <p>O <b>TR COVID-19 Ag - Bio-Manguinhos</b> é um teste rápido de triagem de uso único. Ele é indicado
-                    para a
-                    detecção qualitativa de antígenos do vírus SARS-CoV-2, pois é capaz de identificar pequenas
-                    quantidades de antígeno em um ensaio de simples execução e resultado rápido. Esse teste é realizado
-                    com amostras de <a data-toggle="tooltip" class="tooltipStyle" title="" data-html="true"
-                        data-original-title="<b><i>Swab</i> Nasofaringeo</b>:<br>
-                    Cotonete longo e estéril aplicado na região nasal e faríngea 
-                    (a região da garganta logo atrás do nariz e da boca).">
-                        <nobr><i>swab</i> nasofaringeo</nobr>
-                    </a>.</p>
-
-                <p>O teste se baseia na tecnologia de <a data-toggle="tooltip" class="tooltipStyle" title=""
-                        data-html="true" data-original-title="<b>Imunocromatografia de Fluxo Lateral</b>:<br> 
-                        Técnica usada para o imunodiagnóstico de doenças infecciosas 
-                        que utiliza um anticorpo de captura ligado à matriz e um anticorpo 
-                        marcado com partículas coloridas para detectar o antígeno.">
-                        <nobr>imunocromatografia de fluxo
-                            lateral</nobr>
-                    </a>, que garante a ampliação
-                    dos
-                    níveis de sensibilidade e especificidade, possibilitando a obtenção de resultados altamente
-                    confiáveis e precisos.</p>
-
-                <p>A leitura dos resultados é visual e de fácil interpretação e fica disponível em apenas 15 minutos.
-                </p>
-
-                <!-- Imagem ao Centro 1 -->
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <img src="assets/images/aula1/img1.png" class="img-fluid imgCentro" alt="Kit de testes"><br>
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                    </div>
-                </div>
-                <!-- Fim da Imagem ao Centro 1 -->
-
-                <h2 id="topico2">Armazenamento, transporte e manuseio</h2>
-
-                <p>O <b>TR COVID-19 Ag– Bio-Manguinhos</b> é indicado para uso por profissionais capacitados de acordo
-                    com as
-                    instruções fornecidas, sendo um produto destinado exclusivamente para uso de <a
-                        data-toggle="tooltip" class="tooltipStyle" title="" data-html="true"
-                        data-original-title="<b>Diagnóstico <i>In Vitro</i></b>:<br> Do latim, “em vidro”, em referência a forma de realizar - em tubos de ensaio, equipamentos de laboratório ou outros.">diagnóstico
-                        <i>
-                            <nobr>in vitro</nobr>
-                        </i></a>.
-                </p>
-
-                <p>O kit precisa ser mantido em condições adequadas para garantir qualidade e resultados precisos. Para
-                    que a utilização do Kit não seja afetada, é importante estar atento às orientações de armazenamento,
-                    transporte e manuseio.</p>
-
-            </div>
-            <!-- Fim do Bloco 1 -->
-
-            <!-- Box Azul 1 -->
-            <div class="row estilo">
-
-                <div class="col-md-10 blocoTexto">
-
-                    <p class="pinfo">ARMAZENAMENTO</p>
-
-                    <ul>
-                        <li class="icon arrow">
-                            <p>Armazenar em local seco e ao abrigo do calor e umidade e em temperatura entre 2ºC e 30º
-                                C.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Deve ser conservado em geladeira ou em caixas de isopor em locais onde a temperatura
-                                ambiente ultrapasse 30 ºC.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Caso o Kit seja guardado sob refrigeração, é preciso garantir que todos os componentes
-                                estejam à temperatura ambiente no momento de sua utilização.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Nem o kit nem seus componentes devem ser congelados.</p>
-                        </li>
-                    </ul>
-
-                    <p class="pinfo">TRANSPORTE</p>
-
-                    <ul>
-                        <li class="icon arrow">
-                            <p>O kit não é afetado pelo transporte, desde que seja respeitada a condição ideal de
-                                temperatura, descrita no rótulo do produto.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Os suportes de teste devem permanecer lacrados até o momento de sua utilização.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Os testes nunca devem ser utilizados após a data de validade descrita na etiqueta externa
-                                da caixa do kit.</p>
-                        </li>
-
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-1 warningStyle1"><img style="margin-bottom: 24px;"
-                                        src="assets/images/icones/warning.png" alt="Atenção"></div>
-                                <div class="col-md-11 warningStyle2">
-                                    <p><b>O fabricante não
-                                            se responsabiliza pelos resultados quando os insumos não forem
-                                            armazenados nas condições determinadas.</b></p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <!-- Fim do Box Azul 1 -->
-
-            <!-- Bloco 2 -->
-            <div class="conteudo">
-
-                <h2 id="topico3">Elementos do kit</h2>
-
-                <p>Cada Kit <b>TR COVID-19 Ag - Bio-Manguinhos</b> possui os seguintes elementos:</p>
-
-                <!-- Imagem ao Centro 2 -->
-                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
-                    <div class="col-md-8">
-                        <img class="img-fluid imgCentro" src="assets/images/aula1/img2.png" alt="Elementos do Kit">
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                    </div>
-                </div>
-                <!-- Fim da Imagem ao Centro 2-->
-
-                <p>Além dos elementos presentes no Kit, é necessário ter em mãos os materiais de manipulação:</p>
-
-                <ul>
-                    <li class="icon caret-right">Cronômetro ou relógio.</li>
-                    <li class="icon caret-right">Luvas descartáveis e jaleco para proteção individual.</li>
-                    <li class="icon caret-right">Algodão.</li>
-                    <li class="icon caret-right">Álcool.</li>
-                    <li class="icon caret-right">Água sanitária ou solução de hipoclorito de sódio a 2,5%.</li>
-                    <li class="icon caret-right">Recipiente seguro para descarte de material biológico.</li>
-                </ul>
-
-                <h2 id="topico4">Coleta de amostra e interpretação dos resultados</h2>
-
-                <p>No vídeo a seguir, você confere o passo a passo para iniciar a coleta de amostra e interpretação do
-                    teste utilizando o Kit <b>TR COVID-19 Ag - Bio-Manguinhos</b>:</p>
-
-                <!-- Vídeo Embed 1 -->
-                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
-                    <div class="col-md-8">
-
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2PLiKMSWoFs"
-                                frameborder="0" allow="encrypted-media" allowfullscreen="allowfullscreen"
-                                preload="none"></iframe>
-                        </div>
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.youtube.com/channel/UCWSTFJsqh06RXvyAUVZc4Nw" target="_blank"
-                                rel="noopener noreferrer">Canal do YouTube
-                                biofiocruz</a></b></small>
-                    </div>
-                </div>
-                <!-- Fim do Vídeo Embed 1 -->
-
-                <div class="row">
-                    <div class="col-md-1"><img style="margin-bottom: 24px;"
-                            src="assets/images/icones/Icon ionic-md-warning.png" alt="Atenção"></div>
-
-                    <div class="col-md-11">
-                        <p>A leitura do resultado do teste deverá ser realizada em 15 minutos. Não interpretar o
-                            resultado após
-                            esse tempo.</p>
-
-                        <p>Os Kits não devem ser fracionados e os componentes de Kits de lotes diferentes nunca devem
-                            ser
-                            misturados.</p>
-
-                        <p>Verifique o prazo de validade do produto e a integridade dos componentes do kit antes de cada
-                            aplicação.</p>
-                    </div>
-                </div>
-
-                <h2 id="topico5">Boas práticas de manipulação</h2>
-
-                <p>Para que a qualidade dos resultados obtidos no teste não seja comprometida é importante o
-                    cumprimento
-                    de boas práticas:</p>
-
-                <ul>
-                    <li class="icon circle">A realização do teste deve ser feita apenas por profissionais
-                        capacitados.
-                    </li>
-                    <li class="icon circle">Deve-se usar equipamentos de proteção individual (EPI) durante toda a
-                        etapa
-                        de realização do teste.</li>
-                    <li class="icon circle">Além do uso de EPI, deve-se seguir todas as demais normas de
-                        biossegurança.
-                    </li>
-                </ul>
-
-                <!-- Texto com imagem à esquerda -->
-                <div class="row justify-content-center">
-                    <div class="col-md-5" style="padding: 0px !important;">
-                        <figure class="figure" style="float: right;">
-                            <img src="assets/images/aula1/img3.png" class="img-fluid" alt=""><br>
-
-                            <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                    href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/dpp-covid19-ag"
-                                    target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-5 centro" style="padding: 0px;">
-                        <p style="float: left;">O teste deve ser feito por um profissional capacitado para
-                            processamento
-                            de amostras clínicas
-                            e que esteja utilizando EPIs adequados: luvas descartáveis, jaleco, máscara e óculos ou
-                            protetor facial.<br><br>
-
-                            Acesse o Manual do teste no <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">site de Bio-Manguinhos</a>.</p>
-                    </div>
-                </div>
-                <!-- Fim texto com imagem à esquerda -->
-
-            </div>
-            <!-- Fim do Bloco 2 -->
-
-            <!-- Box Azul 2 -->
-            <div class="row estilo">
-                <div class="col-md-10 blocoTexto">
-                    <p class="pinfo">Biossegurança em Foco - Curso livre</p>
-                    <div class="row" style="margin-bottom: 30px!important;">
-                        <div class="col-md-6">
-                            <figure class="figure">
-                                <div class="cardImg" style="float: right;">
-                                    <img src="assets/images/aula1/img4.png" class="img-fluid" alt="">
-                                </div>
-                            </figure>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p>Para saber mais sobre diretrizes de biossegurança, matricule-se no curso
-                                Biossegurança em
-                                Foco. O curso tem como objetivo fortalecer um conjunto de ações para prevenir,
-                                controlar, reduzir ou minimizar riscos inerentes às atividades que possam
-                                comprometer a
-                                saúde humana, animal e o meio ambiente.</p>
-
-                            <p>Acesse o <u><a href="https://campusvirtual.fiocruz.br/portal/?q=node/63286"
-                                        target="_blank" rel="noopener noreferrer">Campus Virtual Fiocruz</a></u> para se
-                                matricular no curso.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Fim do Box Azul 2 -->
-
-            <!-- Bloco 3 -->
-            <div class="conteudo">
-
-                <div class="row">
-                    <div class="col-md-1"><img style="margin-bottom: 24px;"
-                            src="assets/images/icones/Icon ionic-md-warning.png" alt="Atenção"></div>
-                    <div class="col-md-11">
-
-                        <p style="margin-bottom: 0px!important;">O Kit <b>TR COVID-19 Ag -
-                                Bio-Manguinhos</b> pode
-                            representar uma fonte de risco. Os resíduos gerados durante a aplicação do teste devem
-                            ser descartados em locais apropriados e enviados para tratamento de resíduos infectantes,
-                            de acordo com a legislação da sua região.</p>
-                    </div>
-                </div>
-
-                <h2 id="topico6">Chegamos ao fim da aula</h2>
-
-                <p>Nessa aula você aprendeu como manusear o Kit TR COVID-19 Ag, identificar os elementos que
-                    fazem
-                    parte do conjunto, realizar o teste em humanos e interpretar os resultados.</p>
-
-                <!-- Texto com imagem à direita -->
-                <div class="row" style="margin-bottom: 24px !important;">
-                    <div class="col-md-6 centro">
-
-                        <p>Antes de seguir para a próxima aula, recomendamos que você baixe o <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/images/bm-bul-152-00-r-sn-guia-rapido-ag-humasis.pdf"
-                                target="_blank" rel="noopener noreferrer">Guia Rápido TR COVID-19 Ag</a>
-                            - Procedimentos de coleta da amostra, execução do ensaio e interpretação dos resultados,
-                            imprima e deixe em lugar vísivel, no ambiente onde são realizados os testes.</p>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <figure class="figure">
-                            <div class="cardImg">
-                                <a href="https://www.bio.fiocruz.br/images/bm-bul-152-00-r-sn-guia-rapido-ag-humasis.pdf"
-                                    target="_blank" rel="noopener noreferrer"><img src="assets/images/aula1/img5.png"
-                                        class="img-fluid rounded" alt=""></a>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Fim texto com imagem à direita -->
-
-            </div>
-            <!-- Fim do Bloco 3 -->
-
-            <!-- Barra de Navegação -->
-            <div class="row navegacao">
-                <div class="col-md-6 border-right text-left" id="anterior">
-                    <a href="index.html">
-                        <i class="fas fa-chevron-left" style="margin-right: 15px; margin-top: 5px;"></i>INÍCIO
-                        <p style="margin-top: 0px !important;">Apresentação do curso</p>
-                    </a>
-
-                </div>
-                <div class="col-md-6 border-left text-right" id="proxima">
-                    <a href="./aula2.html"><b>PRÓXIMA AULA<i class="fas fa-chevron-right"
-                                style="margin-left: 15px; margin-top: 5px;"></i>
-                            <p style="margin-top: 0px !important;">Teste TR DPP<sup>®</sup> COVID-19 Ag
-                        </b></p>
-                    </a>
-
-                </div>
-            </div>
-            <!--Fim Barra de Navegação-->
-
-            <!-- Rodapé -->
-            <footer>
-                <div class="row-main">
-                    <div class="col-md-12 centro">
-                        <img class="img-fluid centro" style="max-width: 60%;" id="rodape1" src="" alt="">
-                    </div>
-                    <div class="col-md-12 centro" id="colunaRodape">
-                        <img class="img-fluid centro" style="max-width: 100%;" id="rodape2" src="" alt="">
-                    </div>
-                </div>
-            </footer>
-            <!-- Fim Rodapé -->
-
-        </div>
-        <!--Fim Coluna Conteúdo-->
-
-    </div>
-    <!-- Fim da Row-main -->
-
-    <!-- Arquivos JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/sidebar.js"></script>
-
-</body>
-
-</html><!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="utf-8">
-    <title>Treinamento testes rápidos Covid-19 - Aula 1</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
-    <!-- Arquivos CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <!-- Menu Superior -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light" id="menuSuperior">
-
-            <!-- Logos -->
-            <img src="assets/images/logos/logoAula.png" class="img-fluid logo" alt="Logo Fiocruz" />
-
-            <!-- Botão Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="material-complementar.html">Material Complementar</a></li>
-                    <li><a href="creditos.html">Créditos</a></li>
-                </ul>
-            </div>
-
-        </nav>
-    </header>
-    <!-- Fim do Menu Superior -->
-
-    <!-- Início da Row-main-->
-    <div class="row" id="row-main">
-
-        <!-- Início da Coluna do Menu Lateral-->
-        <div class="col-md-2" id="sidebar">
-
-            <!-- Step Menu -->
-            <div id="accordion" class="stepContainer">
-
-                <!-- Botão p/ Recolher Sidebar-->
-                <span class="toggle-sidebar" id="sidebarButton"><i class="fas fa-chevron-left"></i></span>
-
-                <!-- Botão Secundário p/ Recolher Sidebar -->
-                <span class="toggle-sidebar" id="sidebarButton2"><img style="max-width: 50%;"
-                        src="assets/images/icones/icone.png" alt=""></span>
-
-                <!-- Step 1 -->
-                <div class="step" id="aula1">
-                    <div class="v-stepper">
-                        <div class="circle">
-                            <i class="fas fa-check"></i>
-                        </div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu open">
-                        <div class="link title">
-                            <a class="aula1" style="cursor: pointer;">Aula 1</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse show" id="collapseAula1">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico1"></div>
-                                </div>
-                                <p><a href="#topico1">Sobre o Kit TR COVID-19 Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico2"></div>
-                                </div>
-                                <p><a href="#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico3"></div>
-                                </div>
-                                <p><a href="#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico4"></div>
-                                </div>
-                                <p><a href="#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico5"></div>
-                                </div>
-                                <p><a href="#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula1topico6"></div>
-                                </div>
-                                <p><a href="#topico6">Conclusão da aula</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim do Step 1 -->
-
-                <!-- Step 2 -->
-                <div class="step" id="aula2">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula2" style="cursor: pointer;">Aula 2</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula2">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico1"></div>
-                                </div>
-                                <p><a href="aula2.html#topico1">Sobre o Kit TR DPP<sup>®</sup> COVID-19 Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico2"></div>
-                                </div>
-                                <p><a href="aula2.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico3"></div>
-                                </div>
-                                <p><a href="aula2.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico4"></div>
-                                </div>
-                                <p><a href="aula2.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico5"></div>
-                                </div>
-                                <p><a href="aula2.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula2topico6"></div>
-                                </div>
-                                <p><a href="aula2.html#topico6">Conclusão da aula</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim Step 2 -->
-
-                <!-- Step 3 -->
-                <div class="step" id="aula3">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula3" style="cursor: pointer;">Aula 3</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula3">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico1"></div>
-                                </div>
-                                <p><a href="aula3.html#topico1">Sobre o Kit TR SARS-CoV-2 Ag</a>
-                                </p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico2"></div>
-                                </div>
-                                <p><a href="aula3.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico3"></div>
-                                </div>
-                                <p><a href="aula3.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico4"></div>
-                                </div>
-                                <p><a href="aula3.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico5"></div>
-                                </div>
-                                <p><a href="aula3.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula3topico6"></div>
-                                </div>
-                                <p><a href="aula3.html#topico6">Conclusão da aula</a></p>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Fim Step 3 -->
-
-                <!-- Step 4 -->
-                <div class="step" id="aula4">
-                    <div class="v-stepper">
-                        <div class="circle"></div>
-                        <div class="line"></div>
-                    </div>
-
-                    <div class="contentMenu">
-                        <div class="link title">
-                            <a class="aula4" style="cursor: pointer;">Aula 4</a>
-                            <i class="fas fa-caret-down"></i>
-                        </div>
-
-                        <div class="items collapse hide" id="collapseAula4">
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico1"></div>
-                                </div>
-                                <p><a href="aula4.html#topico1">Sobre o Kit Teste Rápido COVID Ag</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico2"></div>
-                                </div>
-                                <p><a href="aula4.html#topico2">Armazenamento, transporte e manuseio</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico3"></div>
-                                </div>
-                                <p><a href="aula4.html#topico3">Elementos do kit</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico4"></div>
-                                </div>
-                                <p><a href="aula4.html#topico4">Coleta de amostra e interpretação dos resultados</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico5"></div>
-                                </div>
-                                <p><a href="aula4.html#topico5">Boas práticas de manipulação</a></p>
-                            </div>
-
-                            <div class="subItem">
-                                <div class="containerItem">
-                                    <div class="item" id="aula4topico6"></div>
-                                </div>
-                                <p><a href="aula4.html#topico6">Conclusão da aula</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Fim Step 4 -->
-
-            </div>
-            <!-- Fim do Step Menu -->
-
-        </div> <!-- Fim da Coluna Menu Lateral -->
-
-        <!-- Início Coluna de Conteúdo -->
-        <div class="col-md-10" id="content">
-
-            <!-- Bloco 1 -->
-            <div class="conteudo">
-
-                <img class="tarja" src="assets/images/aula1/tarjaAula1.png" alt="Tarja Aula 1">
-
-                <h1>Teste TR COVID-19 Ag - Bio-Manguinhos</h1>
-
-                <p><b>Ao final desta aula, você será capaz de:</b></p>
-
-                <ul>
-                    <li class="icon checkmark">
-                        <p>Identificar os elementos que compõem o Kit TR COVID-19 Ag.</p>
-                    </li>
-
-                    <li class="icon checkmark">
-                        <p>Realizar o TR COVID-19 Ag em humanos.</p>
-                    </li>
-
-                    <li class="icon checkmark">
-                        <p>Interpretar os resultados do TR COVID-19 Ag.</p>
-                    </li>
-                </ul>
-
-                <h2 id="topico1">Sobre o Kit TR COVID-19 Ag</h2>
-
-                <p>O <b>TR COVID-19 Ag - Bio-Manguinhos</b> é um teste rápido de triagem de uso único. Ele é indicado
-                    para a
-                    detecção qualitativa de antígenos do vírus SARS-CoV-2, pois é capaz de identificar pequenas
-                    quantidades de antígeno em um ensaio de simples execução e resultado rápido. Esse teste é realizado
-                    com amostras de <a data-toggle="tooltip" class="tooltipStyle" title="" data-html="true"
-                        data-original-title="<b><i>Swab</i> Nasofaringeo</b>:<br>
-                    Cotonete longo e estéril aplicado na região nasal e faríngea 
-                    (a região da garganta logo atrás do nariz e da boca).">
-                        <nobr><i>swab</i> nasofaringeo</nobr>
-                    </a>.</p>
-
-                <p>O teste se baseia na tecnologia de <a data-toggle="tooltip" class="tooltipStyle" title=""
-                        data-html="true" data-original-title="<b>Imunocromatografia de Fluxo Lateral</b>:<br> 
-                        Técnica usada para o imunodiagnóstico de doenças infecciosas 
-                        que utiliza um anticorpo de captura ligado à matriz e um anticorpo 
-                        marcado com partículas coloridas para detectar o antígeno.">
-                        <nobr>imunocromatografia de fluxo
-                            lateral</nobr>
-                    </a>, que garante a ampliação
-                    dos
-                    níveis de sensibilidade e especificidade, possibilitando a obtenção de resultados altamente
-                    confiáveis e precisos.</p>
-
-                <p>A leitura dos resultados é visual e de fácil interpretação e fica disponível em apenas 15 minutos.
-                </p>
-
-                <!-- Imagem ao Centro 1 -->
-                <div class="row justify-content-center">
-                    <div class="col-md-8">
-                        <img src="assets/images/aula1/img1.png" class="img-fluid imgCentro" alt="Kit de testes"><br>
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                    </div>
-                </div>
-                <!-- Fim da Imagem ao Centro 1 -->
-
-                <h2 id="topico2">Armazenamento, transporte e manuseio</h2>
-
-                <p>O <b>TR COVID-19 Ag– Bio-Manguinhos</b> é indicado para uso por profissionais capacitados de acordo
-                    com as
-                    instruções fornecidas, sendo um produto destinado exclusivamente para uso de <a
-                        data-toggle="tooltip" class="tooltipStyle" title="" data-html="true"
-                        data-original-title="<b>Diagnóstico <i>In Vitro</i></b>:<br> Do latim, “em vidro”, em referência a forma de realizar - em tubos de ensaio, equipamentos de laboratório ou outros.">diagnóstico
-                        <i>
-                            <nobr>in vitro</nobr>
-                        </i></a>.
-                </p>
-
-                <p>O kit precisa ser mantido em condições adequadas para garantir qualidade e resultados precisos. Para
-                    que a utilização do Kit não seja afetada, é importante estar atento às orientações de armazenamento,
-                    transporte e manuseio.</p>
-
-            </div>
-            <!-- Fim do Bloco 1 -->
-
-            <!-- Box Azul 1 -->
-            <div class="row estilo">
-
-                <div class="col-md-10 blocoTexto">
-
-                    <p class="pinfo">ARMAZENAMENTO</p>
-
-                    <ul>
-                        <li class="icon arrow">
-                            <p>Armazenar em local seco e ao abrigo do calor e umidade e em temperatura entre 2ºC e 30º
-                                C.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Deve ser conservado em geladeira ou em caixas de isopor em locais onde a temperatura
-                                ambiente ultrapasse 30 ºC.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Caso o Kit seja guardado sob refrigeração, é preciso garantir que todos os componentes
-                                estejam à temperatura ambiente no momento de sua utilização.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Nem o kit nem seus componentes devem ser congelados.</p>
-                        </li>
-                    </ul>
-
-                    <p class="pinfo">TRANSPORTE</p>
-
-                    <ul>
-                        <li class="icon arrow">
-                            <p>O kit não é afetado pelo transporte, desde que seja respeitada a condição ideal de
-                                temperatura, descrita no rótulo do produto.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Os suportes de teste devem permanecer lacrados até o momento de sua utilização.</p>
-                        </li>
-
-                        <li class="icon arrow">
-                            <p>Os testes nunca devem ser utilizados após a data de validade descrita na etiqueta externa
-                                da caixa do kit.</p>
-                        </li>
-
-                        <li>
-                            <div class="row">
-                                <div class="col-sm-1 warningStyle1"><img style="margin-bottom: 24px;"
-                                        src="assets/images/icones/warning.png" alt="Atenção"></div>
-                                <div class="col-md-11 warningStyle2">
-                                    <p><b>O fabricante não
-                                            se responsabiliza pelos resultados quando os insumos não forem
-                                            armazenados nas condições determinadas.</b></p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-            <!-- Fim do Box Azul 1 -->
-
-            <!-- Bloco 2 -->
-            <div class="conteudo">
-
-                <h2 id="topico3">Elementos do kit</h2>
-
-                <p>Cada Kit <b>TR COVID-19 Ag - Bio-Manguinhos</b> possui os seguintes elementos:</p>
-
-                <!-- Imagem ao Centro 2 -->
-                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
-                    <div class="col-md-8">
-                        <img class="img-fluid imgCentro" src="assets/images/aula1/img2.png" alt="Elementos do Kit">
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                    </div>
-                </div>
-                <!-- Fim da Imagem ao Centro 2-->
-
-                <p>Além dos elementos presentes no Kit, é necessário ter em mãos os materiais de manipulação:</p>
-
-                <ul>
-                    <li class="icon caret-right">Cronômetro ou relógio.</li>
-                    <li class="icon caret-right">Luvas descartáveis e jaleco para proteção individual.</li>
-                    <li class="icon caret-right">Algodão.</li>
-                    <li class="icon caret-right">Álcool.</li>
-                    <li class="icon caret-right">Água sanitária ou solução de hipoclorito de sódio a 2,5%.</li>
-                    <li class="icon caret-right">Recipiente seguro para descarte de material biológico.</li>
-                </ul>
-
-                <h2 id="topico4">Coleta de amostra e interpretação dos resultados</h2>
-
-                <p>No vídeo a seguir, você confere o passo a passo para iniciar a coleta de amostra e interpretação do
-                    teste utilizando o Kit <b>TR COVID-19 Ag - Bio-Manguinhos</b>:</p>
-
-                <!-- Vídeo Embed 1 -->
-                <div class="row justify-content-center" style="margin-bottom: 24px !important;">
-                    <div class="col-md-8">
-
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/2PLiKMSWoFs"
-                                frameborder="0" allow="encrypted-media" allowfullscreen="allowfullscreen"
-                                preload="none"></iframe>
-                        </div>
-                        <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                href="https://www.youtube.com/channel/UCWSTFJsqh06RXvyAUVZc4Nw" target="_blank"
-                                rel="noopener noreferrer">Canal do YouTube
-                                biofiocruz</a></b></small>
-                    </div>
-                </div>
-                <!-- Fim do Vídeo Embed 1 -->
-
-                <div class="row">
-                    <div class="col-md-1"><img style="margin-bottom: 24px;"
-                            src="assets/images/icones/Icon ionic-md-warning.png" alt="Atenção"></div>
-
-                    <div class="col-md-11">
-                        <p>A leitura do resultado do teste deverá ser realizada em 15 minutos. Não interpretar o
-                            resultado após
-                            esse tempo.</p>
-
-                        <p>Os Kits não devem ser fracionados e os componentes de Kits de lotes diferentes nunca devem
-                            ser
-                            misturados.</p>
-
-                        <p>Verifique o prazo de validade do produto e a integridade dos componentes do kit antes de cada
-                            aplicação.</p>
-                    </div>
-                </div>
-
-                <h2 id="topico5">Boas práticas de manipulação</h2>
-
-                <p>Para que a qualidade dos resultados obtidos no teste não seja comprometida é importante o
-                    cumprimento
-                    de boas práticas:</p>
-
-                <ul>
-                    <li class="icon circle">A realização do teste deve ser feita apenas por profissionais
-                        capacitados.
-                    </li>
-                    <li class="icon circle">Deve-se usar equipamentos de proteção individual (EPI) durante toda a
-                        etapa
-                        de realização do teste.</li>
-                    <li class="icon circle">Além do uso de EPI, deve-se seguir todas as demais normas de
-                        biossegurança.
-                    </li>
-                </ul>
-
-                <!-- Texto com imagem à esquerda -->
-                <div class="row justify-content-center">
-                    <div class="col-md-5" style="padding: 0px !important;">
-                        <figure class="figure" style="float: right;">
-                            <img src="assets/images/aula1/img3.png" class="img-fluid" alt=""><br>
-
-                            <small class="text-muted">Fonte: <a class="tooltipStyle"
-                                    href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/dpp-covid19-ag"
-                                    target="_blank" rel="noopener noreferrer">Bio-Manguinhos</a></small>
-                        </figure>
-                    </div>
-
-                    <div class="col-md-5 centro" style="padding: 0px;">
-                        <p style="float: left;">O teste deve ser feito por um profissional capacitado para
-                            processamento
-                            de amostras clínicas
-                            e que esteja utilizando EPIs adequados: luvas descartáveis, jaleco, máscara e óculos ou
-                            protetor facial.<br><br>
-
-                            Acesse o Manual do teste no <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/index.php/br/produtos/reativos/testes-rapidos/tr-covid-19-ag"
-                                target="_blank" rel="noopener noreferrer">site de Bio-Manguinhos</a>.</p>
-                    </div>
-                </div>
-                <!-- Fim texto com imagem à esquerda -->
-
-            </div>
-            <!-- Fim do Bloco 2 -->
-
-            <!-- Box Azul 2 -->
-            <div class="row estilo">
-                <div class="col-md-10 blocoTexto">
-                    <p class="pinfo">Biossegurança em Foco - Curso livre</p>
-                    <div class="row" style="margin-bottom: 30px!important;">
-                        <div class="col-md-6">
-                            <figure class="figure">
-                                <div class="cardImg" style="float: right;">
-                                    <img src="assets/images/aula1/img4.png" class="img-fluid" alt="">
-                                </div>
-                            </figure>
-                        </div>
-
-                        <div class="col-md-6">
-                            <p>Para saber mais sobre diretrizes de biossegurança, matricule-se no curso
-                                Biossegurança em
-                                Foco. O curso tem como objetivo fortalecer um conjunto de ações para prevenir,
-                                controlar, reduzir ou minimizar riscos inerentes às atividades que possam
-                                comprometer a
-                                saúde humana, animal e o meio ambiente.</p>
-
-                            <p>Acesse o <u><a href="https://campusvirtual.fiocruz.br/portal/?q=node/63286"
-                                        target="_blank" rel="noopener noreferrer">Campus Virtual Fiocruz</a></u> para se
-                                matricular no curso.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Fim do Box Azul 2 -->
-
-            <!-- Bloco 3 -->
-            <div class="conteudo">
-
-                <div class="row">
-                    <div class="col-md-1"><img style="margin-bottom: 24px;"
-                            src="assets/images/icones/Icon ionic-md-warning.png" alt="Atenção"></div>
-                    <div class="col-md-11">
-
-                        <p style="margin-bottom: 0px!important;">O Kit <b>TR COVID-19 Ag -
-                                Bio-Manguinhos</b> pode
-                            representar uma fonte de risco. Os resíduos gerados durante a aplicação do teste devem
-                            ser descartados em locais apropriados e enviados para tratamento de resíduos infectantes,
-                            de acordo com a legislação da sua região.</p>
-                    </div>
-                </div>
-
-                <h2 id="topico6">Chegamos ao fim da aula</h2>
-
-                <p>Nessa aula você aprendeu como manusear o Kit TR COVID-19 Ag, identificar os elementos que
-                    fazem
-                    parte do conjunto, realizar o teste em humanos e interpretar os resultados.</p>
-
-                <!-- Texto com imagem à direita -->
-                <div class="row" style="margin-bottom: 24px !important;">
-                    <div class="col-md-6 centro">
-
-                        <p>Antes de seguir para a próxima aula, recomendamos que você baixe o <a class="tooltipStyle"
-                                href="https://www.bio.fiocruz.br/images/bm-bul-152-00-r-sn-guia-rapido-ag-humasis.pdf"
-                                target="_blank" rel="noopener noreferrer">Guia Rápido TR COVID-19 Ag</a>
-                            - Procedimentos de coleta da amostra, execução do ensaio e interpretação dos resultados,
-                            imprima e deixe em lugar vísivel, no ambiente onde são realizados os testes.</p>
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <figure class="figure">
-                            <div class="cardImg">
-                                <a href="https://www.bio.fiocruz.br/images/bm-bul-152-00-r-sn-guia-rapido-ag-humasis.pdf"
-                                    target="_blank" rel="noopener noreferrer"><img src="assets/images/aula1/img5.png"
-                                        class="img-fluid rounded" alt=""></a>
-                            </div>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Fim texto com imagem à direita -->
-
-            </div>
-            <!-- Fim do Bloco 3 -->
-
-            <!-- Barra de Navegação -->
-            <div class="row navegacao">
-                <div class="col-md-6 border-right text-left" id="anterior">
-                    <a href="index.html">
-                        <i class="fas fa-chevron-left" style="margin-right: 15px; margin-top: 5px;"></i>INÍCIO
-                        <p style="margin-top: 0px !important;">Apresentação do curso</p>
-                    </a>
-
-                </div>
-                <div class="col-md-6 border-left text-right" id="proxima">
-                    <a href="./aula2.html"><b>PRÓXIMA AULA<i class="fas fa-chevron-right"
-                                style="margin-left: 15px; margin-top: 5px;"></i>
-                            <p style="margin-top: 0px !important;">Teste TR DPP<sup>®</sup> COVID-19 Ag
-                        </b></p>
-                    </a>
-
-                </div>
-            </div>
-            <!--Fim Barra de Navegação-->
-
-            <!-- Rodapé -->
-            <footer>
-                <div class="row-main">
-                    <div class="col-md-12 centro">
-                        <img class="img-fluid centro" style="max-width: 60%;" id="rodape1" src="" alt="">
-                    </div>
-                    <div class="col-md-12 centro" id="colunaRodape">
-                        <img class="img-fluid centro" style="max-width: 100%;" id="rodape2" src="" alt="">
-                    </div>
-                </div>
-            </footer>
-            <!-- Fim Rodapé -->
-
-        </div>
-        <!--Fim Coluna Conteúdo-->
-
-    </div>
-    <!-- Fim da Row-main -->
-
-    <!-- Arquivos JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/sidebar.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/sidebar.js"></script>
 
 </body>
 
