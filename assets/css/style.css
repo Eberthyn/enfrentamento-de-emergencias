@@ -314,6 +314,9 @@ ul{
     color: #0173BC;
     font-weight: bold;
 }
+.destaque a{
+    color: #0173BC !important
+}
 hr{
     border: 1px #0173BC;
     background-color:#0173BC;
