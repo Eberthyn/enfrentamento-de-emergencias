@@ -23,6 +23,8 @@ body, header, footer{
     color: white;
     position: absolute;
     font-size:2.2vw;
+    left: 5%;
+    right: 5%;
     /*transform: translate(-25%);*/
 }
 #fundoTexto{
@@ -108,6 +110,7 @@ li{
 footer{
     padding: 1% 0% 1% 0%;
 }
+
 .centro{
     display: flex;
     justify-content: center;
@@ -119,7 +122,6 @@ footer{
 
     #textoCapa{
         margin: 40px 30px 0px 40px;
-    
     }
 }
 
@@ -127,5 +129,8 @@ footer{
    
     .logo{
         max-width: 35%;
-    }  
+    }
+    footer img{
+        max-width: 100% !important;
+    }
 }
