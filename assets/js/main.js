@@ -44,7 +44,6 @@ $(function () {
       $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
     };
 
-
     if ($(".step:last-child .contentMenu").hasClass("open")) {
       $(".step:last-child .line").show();
     } else {

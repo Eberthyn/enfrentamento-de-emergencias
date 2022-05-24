@@ -56,7 +56,6 @@ body, header, footer{
     color: black;
 }
 
-
 /*Botão*/
 #botao{
     text-align: center;
@@ -93,7 +92,6 @@ li{
     margin-right: 15px;
 }
 
-
 /* Estilização da barra de rolagem */
 ::-webkit-scrollbar-track {
     background-color: #F4F4F4;
@@ -107,14 +105,20 @@ li{
 }
 
 /*Rodapé*/
-footer{
+footer img{
     padding: 1% 0% 1% 0%;
+    margin: auto;
+    max-width: 100% !important;
 }
 
 .centro{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#teste{
+    margin: 0px !important;
 }
 
 
@@ -131,6 +135,7 @@ footer{
         max-width: 35%;
     }
     footer img{
+        padding: 2% 3% 2% 3%;
         max-width: 100% !important;
     }
 }

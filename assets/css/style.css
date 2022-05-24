@@ -497,11 +497,8 @@ ul li{
 footer{
     padding: 1% 0% 1% 0%;
     margin: auto;
+    max-width: 100% !important;
 }
-#rodape1, #rodape2{
-    max-width: 60%;
-}
-
 
 /* Recolhe Sidebar */ 
 @media (min-width: 980px) {
@@ -537,7 +534,11 @@ footer{
         max-width: 35%;
     }
     .step:last-child .line{
-        height: 85% ;
+        height: 92% ;
+    }
+    footer img{
+        padding: 1% 2% 1% 2%;
+        max-width: 100% !important;
     }
 }
 
@@ -556,7 +557,7 @@ footer{
         padding: 10px 0px 10px 0px;
     }
     .step:last-child .line{
-        height: 89% ;
+        height: 94.2% ;
     }
 }
 
@@ -588,20 +589,6 @@ footer{
 }
 .tooltip .arrow:before {
     border-top-color: #EE8706 !important;
-}
-
-/* Botão Avaliação */
-#botaoAvaliacao{
-    background-color: #19223C;
-    border-radius: 25px;
-    color: white;
-    width: 150px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 16px !important;
-    margin: auto;
 }
 .warningStyle2 {
     padding-left: 15px !important;
@@ -661,4 +648,28 @@ footer{
     -moz-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+
+/*Botão*/
+.botao{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#botaoAvaliacao{
+    background-color: #EE8706;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.ultra-bold{
+    font-weight: 900;
 }
